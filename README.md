@@ -17,6 +17,7 @@ Configure NPM for the Wings URL to pass http traffic with the https port (443 in
 7. "cd nginx"
 8. "sudo nano panel.conf"
 9. Paste, Edit and Save - https://github.com/saneece/Pterodactyl/blob/main/panel/panel.conf
-10. start container with "docker-compose up -d"
-11. test the url and the direct IP of the panel
-12. Make the user for the panel with "docker-compose run --rm panel php artisan p:user:make"< /br>
+10. "cd .." Don't forget the space between CD and .. so you only go back one level
+11. start container with "docker-compose up -d"
+12. test the url and the direct IP of the panel
+13. Make the user for the panel with "docker-compose run --rm panel php artisan p:user:make"< /br>
