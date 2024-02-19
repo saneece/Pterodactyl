@@ -9,7 +9,7 @@ services:
     ports:
       - "8080:8080"
       - "2022:2022"
-       - "443:443"
+      - "443:443"
     tty: true
     environment:
       TZ: "UTC"
