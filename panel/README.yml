@@ -1,0 +1,25 @@
+sudo mkdir dockconfigs
+cd dockconfigs
+sudo mkdir ptero
+cd ptero
+sudo mkdir nginx
+sudo mkdir certs
+sudo mkdir logs
+sudo mkdir var
+sudo nano docker-compose.yml
+
+#paste and edit https://github.com/saneece/Pterodactyl/blob/main/panel/docker-compose.yml
+
+cd nginx
+sudo nano panel.conf
+#paste and save https://github.com/saneece/Pterodactyl/blob/main/panel/panel.conf
+
+#start container
+docker-compose up -d
+
+#create the NPM url/certs if you havent already
+#test the url
+
+#make sure for panel
+docker-compose run --rm panel php artisan p:user:make
+
