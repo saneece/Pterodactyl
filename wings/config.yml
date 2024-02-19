@@ -1,0 +1,67 @@
+#save this in /etc/pterodactyl/
+debug: false
+app_name: Pterodactyl
+uuid: d7fbabf9-6a68-40d6-8551-4a08d53b2f28 #change from config in Ptero when setting up the node
+token_id: CAuxB6Czm95b828Y #change from config in Ptero when setting up the node
+token: 2RPr4jZ1a1MNuqnHgc3H9T0QCaGSwVKkomhQBwnuKyjrHcQnMiqU9N0294U3H68A #change from config in Ptero when setting up the node
+api:
+  host: 0.0.0.0
+  port: 443
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/wings.lan.nevanstech.com/fullchain.pem #since we don't use SSL directly on the server and instead use our NPM, we don't care but change the "wings.lan.nevanstech.com" to the right URL just in case we need to use this in the future
+    key: /etc/letsencrypt/live/wings.lan.nevanstech.com/privkey.pem #since we don't use SSL directly on the server and instead use our NPM, we don't care but change the "wings.lan.nevanstech.com" to the right URL just in case we need to use this in the future
+  disable_remote_download: false
+  upload_limit: 100
+  trusted_proxies: []
+system:
+  root_directory: /var/lib/pterodactyl
+  log_directory: /var/log/pterodactyl
+  data: /var/lib/pterodactyl/volumes #This is where data is stored. There will be a folder whos name should match the container ID that can be seen in portainer or using "docker ps"
+  archive_directory: /var/lib/pterodactyl/archives
+  backup_directory: /var/lib/pterodactyl/backups
+  tmp_directory: /tmp/pterodactyl
+  username: pterodactyl
+  timezone: America/Chicago
+  user:
+    rootless:
+      enabled: false
+      container_uid: 0
+      container_gid: 0
+    uid: 988
+    gid: 988
+  disk_check_interval: 150
+  activity_send_interval: 60
+  activity_send_count: 100
+  check_permissions_on_boot: true
+  enable_log_rotate: true
+  websocket_log_count: 150
+  sftp:
+    bind_address: 0.0.0.0
+    bind_port: 2022
+    read_only: false
+  crash_detection:
+    enabled: true
+    detect_clean_exit_as_crash: true
+    timeout: 60
+  backups:
+    write_limit: 0
+    compression_level: best_speed
+  transfers:
+    download_limit: 0
+docker:
+  network:
+    interface: 172.18.0.1 #edit this subnet to be one up from where you set the wings subnet (third octet)
+    dns:
+    - 10.255.1.31 #edit this for local dns first (pihole)
+    - 1.1.1.1 #public DNS 
+    name: pterodactyl_nw
+    ispn: false
+    driver: bridge
+    network_mode: pterodactyl_nw
+    is_internal: false
+    enable_icc: true
+    interfaces:
+      v4:
+        subnet: 172.18.0.0/16 #edit this subnet to be one up from where you set the wings subnet (third octet)
+        gateway: 172.18.0.1 #edit this subnet to be one up from where you set the wings subnet (third octet)
