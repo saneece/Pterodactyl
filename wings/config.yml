@@ -9,8 +9,8 @@ api:
   port: 443
   ssl:
     enabled: false
-    cert: /etc/letsencrypt/live/wings.lan.nevanstech.com/fullchain.pem #since we don't use SSL directly on the server and instead use our NPM, we don't care but change the "wings.lan.nevanstech.com" to the right URL just in case we need to use this in the future
-    key: /etc/letsencrypt/live/wings.lan.nevanstech.com/privkey.pem #since we don't use SSL directly on the server and instead use our NPM, we don't care but change the "wings.lan.nevanstech.com" to the right URL just in case we need to use this in the future
+    cert: /etc/letsencrypt/live/wings1.nevanstech.com/fullchain.pem #since we don't use SSL directly on the server and instead use our NPM, we don't care but change the "wings.lan.nevanstech.com" to the right URL just in case we need to use this in the future
+    key: /etc/letsencrypt/live/wings1.nevanstech.com/privkey.pem #since we don't use SSL directly on the server and instead use our NPM, we don't care but change the "wings.lan.nevanstech.com" to the right URL just in case we need to use this in the future
   disable_remote_download: false
   upload_limit: 100
   trusted_proxies: []
@@ -51,17 +51,17 @@ system:
     download_limit: 0
 docker:
   network:
-    interface: 172.18.0.1 #edit this subnet to be one up from where you set the wings subnet (third octet)
+    interface: 172.22.0.1 #Node Network: edit this subnet to be one up from where you set the wings subnet (third octet)
     dns:
     - 10.255.1.31 #edit this for local dns first (pihole)
     - 1.1.1.1 #public DNS 
-    name: pterodactyl_nw
+    name: ptero_node_network
     ispn: false
     driver: bridge
-    network_mode: pterodactyl_nw
+    network_mode: ptero_node_network
     is_internal: false
     enable_icc: true
     interfaces:
       v4:
-        subnet: 172.18.0.0/16 #edit this subnet to be one up from where you set the wings subnet (third octet)
-        gateway: 172.18.0.1 #edit this subnet to be one up from where you set the wings subnet (third octet)
+        subnet: 172.22.0.0/16 #edit this subnet to be one up from where you set the wings subnet (third octet)
+        gateway: 172.22.0.1 #edit this subnet to be one up from where you set the wings subnet (third octet)
