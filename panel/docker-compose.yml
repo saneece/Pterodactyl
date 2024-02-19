@@ -1,4 +1,3 @@
-
 version: '3.8'
 x-common:
   database:
@@ -9,7 +8,7 @@ x-common:
     MYSQL_ROOT_PASSWORD: "Brocode15blow1ngminetoo"
   panel:
     &panel-environment
-    APP_URL: "https://ptero.lan.nevanstech.com" #MODIFY THIS FOR PROD!!
+    APP_URL: "https://ptero.nevanstech.com" #MODIFY THIS FOR PROD!!
     # A list of valid timezones can be found here: http://php.net/manual/en/timezones.php
     APP_TIMEZONE: "America/Chicago"
     APP_SERVICE_AUTHOR: "noreply@example.com"
@@ -76,4 +75,4 @@ networks:
   default:
     ipam:
       config:
-        - subnet: 172.18.0.0/16
+        - subnet: 172.20.0.0/16
