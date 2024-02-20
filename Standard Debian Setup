@@ -15,6 +15,8 @@ umount /dev/cdrom
 shutdown -r now 
 # Or just "reboot" lol
 
+# Login with noroot
+
 # Set static IP 
 sudo nano /etc/network/interfaces
 
