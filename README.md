@@ -68,3 +68,23 @@ Note: If you don't have any other services on this machine, you shouldn't need t
 34. "cd && cd dockconfigs/wings1"
 35. "docker compose up -d --force-recreate"
 36. Check your node status heart in the Ptero Panel. If the heart isn't green, check all of the config.yml settings to make sure you didn't miss type something and check your NPM URL configuration to match what was written in the notes of step 2.
+37. Go back to your Panel and click on the Node you created (if it's green. If it's not green, keep troubleshooting)
+38. Go to the "Allocation" tab and on the right, put in the IP address of the Docker VM (the server docker is running on that hosts Wings)
+39. In the Ports field, put 27000-27999. This will supply 1000 ports for this single node to use. You won't ever run out.
+
+Import an "unsupport" game (egg)
+
+1. Go to https://github.com/parkervcp/eggs/tree/master and find the game you want
+2. Download the .json file
+3. In your panel, go to Admin settings (top right) > Nests (bottom on the left side menu)
+4. Click "Create New" > Name it the same as the game > Save
+5. Click on "Nests" in the left hand menu again
+6. Click "Import Egg" in the top right (green button)
+7. Click "Choose File and select the .json file
+8. Click the drop down under "Associated Nest" and select the Nest you created in step 4
+9. Click "Import"
+10. Now go to Servers in the left hand menu
+11. Click "Create New"
+12. Select your Nest under the the "Nest Configuration" and fill out the rest of the data
+13. Click "Create Server" at the bottom. If you missed anything required, it will tell you and not let you create the server.
+    
