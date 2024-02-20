@@ -1,0 +1,86 @@
+# login as root
+# Install updates
+apt update && apt upgrade
+# Install sudo
+apt install sudo
+# Add the noroot user to the sudo group. You can verify 'sudo whoami' under noroot (noroot is my default user. Change this for whatever your non-root user is)
+usermod -aG sudo noroot 
+
+# If using XCP-NG to host your VM, otherwise either skip or follow your hypervisors instructions on how to add guest tools
+# Mount your Guest Tools ISO to your VM in XO/other hypervisor
+mount /dev/cdrom /mnt
+bash /mnt/Linux/install.sh
+umount /dev/cdrom
+# Eject disc
+shutdown -r now 
+# Or just "reboot" lol
+
+# Set static IP 
+sudo nano /etc/network/interfaces
+
+iface enXO inet static
+	address *.*.*.*
+	netmask 255.255.255.0
+	gateway *.*.*.*
+
+# Change DNS (if using local DNS that's not your gateway, otherwise skip)
+sudo nano /etc/resolv.conf
+
+# Restart networking for changes to take affect
+sudo systemctl restart networking
+
+# Install Cockpit on Debian
+# https://cockpit-project.org/running.html#debian
+# NOTE: Use SU, not sudo
+. /etc/os-release
+echo "deb http://deb.debian.org/debian ${VERSION_CODENAME}-backports main" > \
+    /etc/apt/sources.list.d/backports.list
+apt update
+
+# NOTE: You can access Cockpit from IP:9090 after this install
+apt install -t ${VERSION_CODENAME}-backports cockpit -y
+
+# Install curl, git and git-core
+sudo apt install curl git git-core -y
+
+# Make the directory for docker compose files and others required files
+# Note that images, containers, volumes, and networks are stored in /var/lib/docker/ by default
+sudo mkdir ~/dockconfigs
+
+
+# Install Docker on Debian
+# https://docs.docker.com/engine/install/debian/
+
+	# Add Docker's official GPG key:
+
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+	# Add the repository to Apt sources:
+
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+
+# Install the latest version of Docker
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# Add the noroot user to the docker group for sudo
+sudo usermod -aG docker noroot
+
+# Install Portainer
+#https://docs.portainer.io/start/install-ce/server/docker/linux
+
+# Create the Portainer volume
+docker volume create portainer_data
+
+# Install Portainer
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+
+# Access Portainer
+https://IPADDRESS:9443
