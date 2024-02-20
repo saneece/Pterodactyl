@@ -2,13 +2,13 @@ version: '3.8'
 x-common:
   database:
     &db-environment
-    # Do not remove the "&db-password" from the end of the line below, it is important
-    # for Panel functionality.
-    MYSQL_PASSWORD: &db-password "Code15blow1ngmymind"
-    MYSQL_ROOT_PASSWORD: "Brocode15blow1ngminetoo"
+    # Do not remove the "&db-password" from the end of the line below, it is important for Panel functionality.
+    MYSQL_PASSWORD: &db-password "CHANGE_ME"
+    MYSQL_ROOT_PASSWORD: "CHANGE_ME_TOO"
   panel:
     &panel-environment
-    APP_URL: "https://ptero.nevanstech.com" #MODIFY THIS FOR PROD!!
+    # Change this to your domain. Leave Https even if you're not "using SSL". In this case, we will be using NPM as a reverse proxy.
+    APP_URL: "https://ptero.example.com" 
     # A list of valid timezones can be found here: http://php.net/manual/en/timezones.php
     APP_TIMEZONE: "America/Chicago"
     APP_SERVICE_AUTHOR: "noreply@example.com"
@@ -29,8 +29,7 @@ x-common:
 # ------------------------------------------------------------------------------------------
 # DANGER ZONE BELOW
 #
-# The remainder of this file likely does not need to be changed. Please only make modifications
-# below if you understand what you are doing.
+# The remainder of this file likely does not need to be changed. Please only make modifications below if you understand what you are doing.
 #
 services:
   database:
@@ -57,7 +56,8 @@ services:
       - cache
     volumes:
       - "/dockconfigs/ptero/var/:/app/var/"
-      - "/dockconfigs/ptero/nginx/:/etc/nginx/http.d/" #Add the panel.conf file here!!
+      # Add the panel.conf file to this directory! (/dockconfigs/ptero/nginx/)
+      - "/dockconfigs/ptero/nginx/:/etc/nginx/http.d/" 
       - "/dockconfigs/ptero/certs/:/etc/letsencrypt/"
       - "/dockconfigs/ptero/logs/:/app/storage/logs"
     environment:
