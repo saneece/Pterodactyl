@@ -55,7 +55,7 @@ Configure NPM for the Wings URL to pass http traffic with the https port (443 in
 21. Disk Over-Allocation = 0
 22. Daemon Port = 443
 23. Daemon SFTP port = 2022
-24. Create node.
+24. Create node.</br>
 Note: If you go back to the Nodes overview, you will see a red heart. This is normal. This is the same issue that we saw in our docker compose logs. We need to create the "config.yml" on the server but we needed some data from this node before we could create it.
 25. Go back into the node and click on "Configuration" and copy all the data out to a text editor
 26. On the Docker VM for wings, "cd /etc/pterodactyl *&& sudo nano config.yml" (use putty)
