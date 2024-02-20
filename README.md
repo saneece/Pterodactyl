@@ -8,7 +8,6 @@ To save in a nano editor, use "ctrl+x > y > enter"</br>
 Setup Ptero Panel VM and Container:</br>
 
 1. Setup Docker VM per standard Debian Setup here: https://github.com/saneece/Scripts/blob/main/New%20Debian%20Setup.yml</br>
-</br>
 Note: Investigate NOT setting Portainer is the default volume that the website states and isntead deploy using docker-compose and mapping volume else where to backup stacks deployed via Portainer </br>
 </br>
 2. Create the NPM url/certs for panel.domain.com and wings1.domain.com</br>
