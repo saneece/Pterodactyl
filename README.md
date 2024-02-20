@@ -13,7 +13,7 @@ Note: Investigate NOT setting Portainer is the default volume that the website s
 NOTE: </br>
 Configure NPM for the Panel URL to pass http with the http port (801 in docker-compose.yml for Panel), but configure the SSL cert and force SSL </br>
 Configure NPM for the Wings URL to pass http traffic with the https port (443 in docker-compose.yml for Wings), configure the SSL cert and force SSL </br>
-3. "cd /dockconfigs && sudo mkdir ptero"
+3. "cd dockconfigs && sudo mkdir ptero"
 4. "cd ptero && sudo mkdir nginx && sudo mkdir certs && sudo mkdir logs && sudo mkdir var && sudo mkdir database"
 5. "sudo nano docker-compose.yml"
 6. Paste, Edit and Save - https://github.com/saneece/Pterodactyl/blob/main/panel/docker-compose.yml (to save in the nano editor: ctrl+x > y > enter)
@@ -34,7 +34,7 @@ Note: this is where all of your games will live and run so I recommend around 32
 NOTE: </br>
 Configure NPM for the Panel URL to pass http with the http port (801 in docker-compose.yml for Panel), but configure the SSL cert and force SSL </br>
 Configure NPM for the Wings URL to pass http traffic with the https port (443 in docker-compose.yml for Wings), configure the SSL cert and force SSL </br>
-3. "cd /dockconfigs && sudo mkdir wings1"
+3. "cd dockconfigs && sudo mkdir wings1"
 4. "sudo nano docker-compose.yml"
 5. Paste, Edit and Save - https://github.com/saneece/Pterodactyl/blob/main/wings/docker-compose.yml (to save in the nano editor: ctrl+x > y > enter)
 6. "docker compose up -d"
