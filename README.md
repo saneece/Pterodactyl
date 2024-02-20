@@ -60,8 +60,10 @@ Note: If you go back to the Nodes overview, you will see a red heart. This is no
 25. Go back into the node and click on "Configuration" and copy all the data out to a text editor
 26. On the Docker VM for wings, "cd /etc/pterodactyl && sudo nano config.yml" (use putty)
 27. Paste the config from here: https://github.com/saneece/Pterodactyl/blob/main/wings/config.yml DON'T SAVE YET! Move to next step.
-28. Copy the three lines "uuid:" "token_id:" "token:" and the string of text after each one and paste them over the same three lines in the copied config
+28. From the configuration you copied out of the panel, copy the three lines "uuid:" "token_id:" "token:" and the string of text after each one and paste them over the same three lines in the copied config
 29. Edit the "cert" and "key" lines to have the correct URL. You won't use them but just incase you need to in the future
 30. Adjust the timezone if needed
 31. Adjust the Network "Interface:", "dns:", "interfaces:" > "subnet:" and "gateway:" if neccessary. If you don't have any other services on this machine, you shouldn't need to edit anything other than the DNS. Change the DNS to reflect your local DNS server if you have one or to your prefered public. I like 1.1.1.1, 1.0.0.1 and 9.9.9.9 personally. Google is over rated.
-32. Save the document and check your node status in the Ptero Panel. If the heart isn't green, check all of the config.yml settings to make sure you didn't miss type something and check your NPM URL configuration to match what was written in the notes of step 2.
+32. Save the document and "cd && cd dockconfigs/wings1"
+33. "docker compose up -d --force-recreate"
+34. check your node status in the Ptero Panel. If the heart isn't green, check all of the config.yml settings to make sure you didn't miss type something and check your NPM URL configuration to match what was written in the notes of step 2.
