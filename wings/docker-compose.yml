@@ -12,7 +12,7 @@ services:
       - "443:443"
     tty: true
     environment:
-      TZ: "UTC"
+      TZ: "America/Chicago" #edit me if needed
       WINGS_UID: 988
       WINGS_GID: 988
       WINGS_USERNAME: pterodactyl
@@ -35,6 +35,6 @@ networks:
     driver: bridge
     ipam:
       config:
-        - subnet: "172.21.0.0/16" #edit this to the right subnet (third octet)
+        - subnet: "172.21.0.0/16" #edit this to the right subnet (third octet) if neccsary
     driver_opts:
       com.docker.network.bridge.name: wings1
