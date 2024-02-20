@@ -58,7 +58,7 @@ Configure NPM for the Wings URL to pass http traffic with the https port (443 in
 24. Create node.</br>
 Note: If you go back to the Nodes overview, you will see a red heart. This is normal. This is the same issue that we saw in our docker compose logs. We need to create the "config.yml" on the server but we needed some data from this node before we could create it.
 25. Go back into the node and click on "Configuration" and copy all the data out to a text editor
-26. On the Docker VM for wings, "cd /etc/pterodactyl *&& sudo nano config.yml" (use putty)
+26. On the Docker VM for wings, "cd /etc/pterodactyl && sudo nano config.yml" (use putty)
 27. Paste the config from here: https://github.com/saneece/Pterodactyl/blob/main/wings/config.yml DON'T SAVE YET! Move to next step.
 28. Copy the three lines "uuid:" "token_id:" "token:" and the string of text after each one and paste them over the same three lines in the copied config
 29. Edit the "cert" and "key" lines to have the correct URL. You won't use them but just incase you need to in the future
