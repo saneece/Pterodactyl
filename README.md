@@ -29,6 +29,7 @@ Configure NPM for the Wings URL to pass http traffic with the https port (443 in
 Setup Ptero Wings VM and Container:
 
 1. Setup Docker VM per standard Debian Setup here: https://github.com/saneece/Scripts/blob/main/New%20Debian%20Setup.yml</br>
+Note: this is where all of your games will live and run so I recommend around 32GB or higher RAM and 100-200GB of storage to start. Account for the VM's overhead if you want to dedicate a full 32 to the games.
 2. Create the NPM url/certs for panel.domain.com and wings1.domain.com (if you didn't do this already in step 2 of the panel configuration)</br>
 NOTE: </br>
 Configure NPM for the Panel URL to pass http with the http port (801 in docker-compose.yml for Panel), but configure the SSL cert and force SSL </br>
