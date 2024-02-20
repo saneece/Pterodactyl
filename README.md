@@ -1,5 +1,5 @@
 # Pterodactyl
-Notes for begginers to linux:</br>
+Notes for beginners to linux:</br>
 Anytime you need to run commands, it's best to use PuTTY or Solar-PuTTY so you can copy and paste.</br>
 To copy FROM a PuTTY panel, just highlight the test you want to copy and ctrl+v on your local machine</br>
 To copy TO a PuTTY panel, copy from your local machine > use arrow keys to set your cursor where you want the data > right click</br>
