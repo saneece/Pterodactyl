@@ -62,7 +62,7 @@ Note: If you go back to the Nodes overview, you will see a red heart. This is no
 27. Paste the config from your panel here: DON'T SAVE YET! Move to next step.
 28. Now paste the contents of this file at the end of you config.yml from the last step: https://github.com/saneece/Pterodactyl/blob/main/wings/config.yml
 29. Adjust the timezone if needed
-30. Adjust the Network settings you copied in step 28. Specifically, the "dns:" Change the DNS to reflect your local DNS server if you have one or to your prefered public. I like 1.1.1.1, 1.0.0.1 and 9.9.9.9 personally. Google is over rated.
+30. Adjust the Network settings you copied in step 28. Specifically, the "dns:" Change the DNS to reflect your local DNS server if you have one or to your prefered public. I like 1.1.1.1, 1.0.0.1 and 9.9.9.9 personally. Google is over rated.</br>
 Note: If you don't have any other services on this machine, you shouldn't need to edit anything other than the DNS. If you DO have other services (not recommended), they might be overlapping with the network so you may need to edit tghe "interfaces:" > "subnet:" and "gateway:" settings to adjust the network.  
 31. Save the document (ctrl+x > y > enter
 32. "cd && cd dockconfigs/wings1"
