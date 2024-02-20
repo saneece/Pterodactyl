@@ -16,7 +16,6 @@ Note: Investigate NOT setting Portainer is the default volume that the website s
 NOTE: </br>
 Configure NPM for the Panel URL to pass http with the http port (801 in docker-compose.yml for Panel), but configure the SSL cert and force SSL </br>
 Configure NPM for the Wings URL to pass http traffic with the https port (443 in docker-compose.yml for Wings), configure the SSL cert and force SSL </br>
-</br>
 3. "cd dockconfigs && sudo mkdir ptero"
 4. "cd ptero && sudo mkdir nginx && sudo mkdir certs && sudo mkdir logs && sudo mkdir var && sudo mkdir database"
 5. "sudo nano docker-compose.yml"
