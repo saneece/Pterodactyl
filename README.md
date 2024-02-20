@@ -29,15 +29,11 @@ Configure NPM for the Wings URL to pass http traffic with the https port (443 in
 Setup Ptero Wings VM and Container:
 
 1. Setup Docker VM per standard Debian Setup here: https://github.com/saneece/Scripts/blob/main/New%20Debian%20Setup.yml</br>
-</br>
-Note: this is where all of your games will live and run so I recommend around 32GB or higher RAM and 100-200GB of storage to start. Account for the VM's overhead if you want to dedicate a full 32 to the games.
-</br>
+Note: this is where all of your games will live and run so I recommend around 32GB or higher RAM and 100-200GB of storage to start. Account for the VM's overhead if you want to dedicate a full 32 to the games.</br>
 3. Create the NPM url/certs for panel.domain.com and wings1.domain.com (if you didn't do this already in step 2 of the panel configuration)</br>
-</br>
 NOTE: </br>
 Configure NPM for the Panel URL to pass http with the http port (801 in docker-compose.yml for Panel), but configure the SSL cert and force SSL </br>
 Configure NPM for the Wings URL to pass http traffic with the https port (443 in docker-compose.yml for Wings), configure the SSL cert and force SSL </br>
-</br>
 4. "cd dockconfigs && sudo mkdir wings1 && cd wings1/"
 5. "sudo nano docker-compose.yml"
 6. Paste, Edit and Save - https://github.com/saneece/Pterodactyl/blob/main/wings/docker-compose.yml (to save in the nano editor: ctrl+x > y > enter)
@@ -60,18 +56,14 @@ Configure NPM for the Wings URL to pass http traffic with the https port (443 in
 23. Daemon Port = 443
 24. Daemon SFTP port = 2022
 25. Create node.</br>
-</br>
 Note: If you go back to the Nodes overview, you will see a red heart. This is normal. This is the same issue that we saw in our docker compose logs. We need to create the "config.yml" on the server but we needed some data from this node before we could create it.
-</br>
 27. Go back into the node and click on "Configuration" and copy all the data out to a text editor
 28. On the Docker VM for wings, "cd /etc/pterodactyl && sudo nano config.yml" (use putty)
 29. Paste the config from your panel here: DON'T SAVE YET! Move to next step.
 30. Now paste the contents of this file at the end of you config.yml from the last step: https://github.com/saneece/Pterodactyl/blob/main/wings/config.yml
 31. Adjust the timezone if needed
 32. Adjust the Network settings you copied in step 28. Specifically, the "dns:" Change the DNS to reflect your local DNS server if you have one or to your prefered public. I like 1.1.1.1, 1.0.0.1 and 9.9.9.9 personally. Google is over rated.</br>
-</br>
 Note: If you don't have any other services on this machine, you shouldn't need to edit anything other than the DNS. If you DO have other services (not recommended), they might be overlapping with the network so you may need to edit tghe "interfaces:" > "subnet:" and "gateway:" settings to adjust the network.
-</br>
 33. Save the document (ctrl+x > y > enter
 34. "cd && cd dockconfigs/wings1"
 35. "docker compose up -d --force-recreate"
