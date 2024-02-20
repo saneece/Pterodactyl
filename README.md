@@ -59,11 +59,12 @@ Configure NPM for the Wings URL to pass http traffic with the https port (443 in
 Note: If you go back to the Nodes overview, you will see a red heart. This is normal. This is the same issue that we saw in our docker compose logs. We need to create the "config.yml" on the server but we needed some data from this node before we could create it.
 25. Go back into the node and click on "Configuration" and copy all the data out to a text editor
 26. On the Docker VM for wings, "cd /etc/pterodactyl && sudo nano config.yml" (use putty)
-27. Paste the config from here: https://github.com/saneece/Pterodactyl/blob/main/wings/config.yml DON'T SAVE YET! Move to next step.
-28. From the configuration you copied out of the panel, copy the three lines "uuid:" "token_id:" "token:" and the string of text after each one and paste them over the same three lines in the copied config
-29. Edit the "cert" and "key" lines to have the correct URL. You won't use them but just incase you need to in the future
-30. Adjust the timezone if needed
-31. Adjust the Network "Interface:", "dns:", "interfaces:" > "subnet:" and "gateway:" if neccessary. If you don't have any other services on this machine, you shouldn't need to edit anything other than the DNS. Change the DNS to reflect your local DNS server if you have one or to your prefered public. I like 1.1.1.1, 1.0.0.1 and 9.9.9.9 personally. Google is over rated.
-32. Save the document and "cd && cd dockconfigs/wings1"
+27. Paste the config from your panel here: DON'T SAVE YET! Move to next step.
+28. Now paste the contents of this file at the end of you config.yml from the last step: https://github.com/saneece/Pterodactyl/blob/main/wings/config.yml
+29. Adjust the timezone if needed
+30. Adjust the Network settings you copied in step 28. Specifically, the "dns:" Change the DNS to reflect your local DNS server if you have one or to your prefered public. I like 1.1.1.1, 1.0.0.1 and 9.9.9.9 personally. Google is over rated.
+Note: If you don't have any other services on this machine, you shouldn't need to edit anything other than the DNS. If you DO have other services (not recommended), they might be overlapping with the network so you may need to edit tghe "interfaces:" > "subnet:" and "gateway:" settings to adjust the network.  
+31. Save the document (ctrl+x > y > enter
+32. "cd && cd dockconfigs/wings1"
 33. "docker compose up -d --force-recreate"
-34. check your node status in the Ptero Panel. If the heart isn't green, check all of the config.yml settings to make sure you didn't miss type something and check your NPM URL configuration to match what was written in the notes of step 2.
+34. Check your node status heart in the Ptero Panel. If the heart isn't green, check all of the config.yml settings to make sure you didn't miss type something and check your NPM URL configuration to match what was written in the notes of step 2.
