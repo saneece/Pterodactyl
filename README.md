@@ -75,7 +75,7 @@ Notes for beginners to Linux:
 
 ## Import an "unsupported" game (egg):
 
-1. Go to [this link](https://github.com/parkervcp/eggs/tree/master) and find the game you want.
+1. Go to [this link](https://github.com/parkervcp/eggs/tree/master/game_eggs) and find the game you want.
 2. Download the .json file.
 3. In your panel, go to Admin settings (top right) > Nests (bottom on the left side menu).
 4. Click "Create New" > Name it the same as the game > Save.
