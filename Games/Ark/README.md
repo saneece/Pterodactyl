@@ -1,3 +1,5 @@
+https://ptero.nevanstech.com/
+
 Admin Panel in Ptero: https://ptero.nevanstech.com/admin
 
   Create server with Egg (if needed to download, follow https://github.com/saneece/Pterodactyl)
