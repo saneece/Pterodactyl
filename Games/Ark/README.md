@@ -75,4 +75,4 @@
 
 1. Go to "\ARK\Engine\Config" then open "BaseEngine.ini" within notepad, CTRL+F and fine the line "AspectRatioAxisConstraint=AspectRatio_MaintainXFOV" and replace it to "AspectRatioAxisConstraint=AspectRatio_MaintainYFOV" 
 2. Then ingame adjust the FOV slider to your liking, but beware, FOV is much wider now so setting the slider to 20-30% is enough.
-3. In-game, turn off motion blur
+3. In-game, Set graphics preset to "High", turn off motion blur and scale down new FOV slider
