@@ -2,11 +2,10 @@
 
 ## Admin Panel in Ptero: https://ptero.nevanstech.com/admin
 
-```
-  Create server with Egg (if needed to download, follow https://github.com/saneece/Pterodactyl)
-  Allocate Game Port, Query Port and RCON Port during setup
-  Set Port Foward in Firewall to forward to the query port (27015) and add to steam favorites with publicIP:27015
-```
+  1. Create server with Egg (if needed to download, follow https://github.com/saneece/Pterodactyl)
+  2. Allocate Game Port, Query Port and RCON Port during setup
+  3. Set Port Foward in Firewall to forward to the query port (27015) and add to steam favorites with publicIP:27015
+
 
 ## Game Server in Ptero: https://ptero.nevanstech.com/
 
