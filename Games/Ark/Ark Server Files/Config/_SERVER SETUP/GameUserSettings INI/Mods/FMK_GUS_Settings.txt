@@ -1,2 +1,0 @@
-[FMK]
-DisableInstatame=false

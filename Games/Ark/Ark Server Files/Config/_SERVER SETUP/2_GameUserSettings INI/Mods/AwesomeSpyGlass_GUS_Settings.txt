@@ -1,0 +1,12 @@
+[AwesomeSpyGlass]
+AllowGPS=True
+AllowCrosshair=True
+AllowFoodList=True
+AllowBuffList=True
+AllowItemList=True
+AllowOutline=False
+AllowPlayerTargeting=True
+AllowStructureTargeting=True
+AllowCrateTargeting=False
+AllowLootTargeting=False
+AllowEggTargeting=False

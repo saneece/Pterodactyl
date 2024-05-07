@@ -1,0 +1,4 @@
+[DeathInventoryKeeper]
+DontKeepEggs=Wyvern,Deinonychus,Rock Drake
+DontKeepArtifacts=True
+DontKeepResources=True

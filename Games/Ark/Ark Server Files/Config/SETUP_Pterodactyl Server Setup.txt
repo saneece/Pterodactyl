@@ -1,0 +1,19 @@
+Create server with Egg (if needed to download, follow https://github.com/saneece/Pterodactyl)
+Allocate Game Port, Query Port and RCON Port
+Set Port Foward to forward to the query port (27015) and add to steam favorites with publicIP:27015
+
+Startup  tab in Ptero
+
+Set Server Name to "Kingdom - MAP NAME"
+Add mods from Z:\Documents\Ark\Ark Server Files\Config\_SERVER SETUP\GameUserSettings INI\Mods\DefaultMods.txt
+(If doing a mod map, make sure it's the first MOD to be loaded)
+Subscribe to Collection to begin pre-downloading mods
+
+Files > ShooterGame\Saved\Config\LinuxServer\
+
+Add Game.ini from Z:\Documents\Ark\Ark Server Files\Config\_SERVER SETUP\Game INI\DefaultGameini - Test.txt
+Add GameUserSettings.ini from Z:\Documents\Ark\Ark Server Files\Config\_SERVER SETUP\GameUserSettings INI\DefaultGameUserSettings.txt
+Add Mods settings from Z:\Documents\Ark\Ark Server Files\Config\_SERVER SETUP\GameUserSettings INI\Mods
+
+Files > ShooterGame/Binaries/Linux
+upload "PlayersJoinNoCheckList.txt" from Z:\Documents\Games\Ark\Ark Server Files\Config\_SERVER SETUP

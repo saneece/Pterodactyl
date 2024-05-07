@@ -1,9 +1,0 @@
-ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_AASpoilingBin_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemResource_ChitinPaste_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=False),(ResourceItemTypeString="PrimalItemResource_Metal_C",BaseResourceRequirement=0.0,bCraftingRequireExactResourceType=False)))
-
-Use the below lines to add and/or customize crafting costs of items:
-
-ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_CorpseRetriever",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemResource_ChitinPaste_C",BaseResourceRequirement=8.0,bCraftingRequireExactResourceType=False),(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=70.0,bCraftingRequireExactResourceType=False)))
-
-(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=8.0,bCraftingRequireExactResourceType=False)
-(ResourceItemTypeString="PrimalItemResource_ChitinPaste_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=False),
-,(ResourceItemTypeString="PrimalItemResource_ChitinPaste_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=False)

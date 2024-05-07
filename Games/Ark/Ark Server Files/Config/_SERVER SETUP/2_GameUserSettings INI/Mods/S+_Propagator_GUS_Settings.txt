@@ -1,0 +1,11 @@
+PropagatorFuelInterval=86400			The time in seconds that a single piece of fuel will last
+PropagatorFuelClass=			Use to override the fuel used, eg PropagatorFuelClass=/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood
+PropagatorMatingIntervalMultiplier=1.0		Similar to the vanilla mating interval multiplier, smaller numbers means less time between mating
+PropagatorMatingSpeedMultiplier=1.0		Similar to the vanilla mating speed multiplier, higher numbers mean less time mating
+PropagatorDisableDinoMods=false		Prevents using any of the dino modifications (mutate, gender change, allow breeding)
+PropagatorModCostItemClass=			Overrides the item used by modifications, eg PropagatorModCostItemClass=/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood
+PropagatorModCostMutate=1			Cost per mutation pulse applied (-1 will cause it to be free)
+PropagatorModCostBreed=1			Cost per breeding status change applied (-1 will cause it to be free)
+PropagatorModCostGender=1			Cost per gender change applied (-1 will cause it to be free)
+PropagatorRespectMutationLimit=false		Will prevent mutations if over the vanilla cap of 20
+PropagatorDinoBlacklist=			Comma separated list of dino classes, eg PropagatorDinoBlacklist=BrainSlug_Character_BP_C

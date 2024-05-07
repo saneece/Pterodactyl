@@ -1,0 +1,94 @@
+[ArkAutomatedSettings]
+ConsolePullRange=30000
+; This changes the range at which a console will pull from and push to OCD structures and crafting stations.
+; This does not change the range of how close together consoles can be placed.
+; Increasing this may be necessary for very large bases, but may cause issues with server performance if too large.
+; Maximum size is 30000.
+ConsolePullTimer=180
+; This setting controls how often the Control Console will run its Auto Sorting Logic.
+; This timer can be in the range of 60-3600 seconds. (Default is 3600, or once per hour.)
+ConsoleMaxStorage=1000
+; This setting controls how many storage slots are in the Control Console. (Range: 90-1000, Default: 650)
+Blacklist=Autocrafter_AA_C,AutoTrough_C,AutoTroughBaby_C,SoulTerminal_DS_C,Gacha_Character_BP_C
+; You can use this feature to set a server wide inability to pull from any structures or dinos in a comma separated list as demonstrated below.
+; Example: Blacklist=ClassName1_C,ClassName2_C,ClassName3_C
+; These are the class names from spawn codes, not engram entries. No spaces are needed.
+; Example: Blacklist=Autocrafter_AA_C,AutoTrough_C,AutoTroughBaby_C,SoulTerminal_DS_C,Gacha_Character_BP_C
+; Can be class names of Dinos and/or Structures.
+AutoCraftingSpeedMultiplier=2
+; This is the crafting speed multiplier for the AA AutoCrafter
+CraftingSpeedMultiplier=25
+; This is the crafting speed multiplier for all other AA crafting benches
+;*****OCD Structures*****
+OCDDropVaultMaxStorage=1000
+; This is the number of storage slots in the OCD Drop Vault (Min:15 Max:1000 Default:1000)
+OCDMetalMaxStorage=1000
+; This is the number of storage slots in the OCD Metal Vault (Min:15 Max:1000 Default:1000)
+OCDMarbleMaxStorage=750
+; This is the number of storage slots in the OCD Marble Vault (Min:15 Max:1000 Default:650)
+OCDDriftwoodMaxStorage=500
+; This is the number of storage slots in the OCD Driftwood Vault (Min:15 Max:1000 Default:300)
+; *****Turret Filler*****
+TurretFillingDelay=0
+; Add a delay to limit how often players can use a fill turrets with the Turret Filler (0-1200 seconds)
+TurretSettingDelay=0
+; Add a delay to limit how often players can change targeting settings within the Turret Filler. (0-1200 seconds)
+;*****Industrial Forge*****
+IndustrialForgePickupRadius=10000
+; The distance the forge(s) pick up raw metal from dinos (Default: 6000)
+ForgeSmeltingMultiplier=25
+; This is the setting for how fast the Industrial Forge will melt metal into ingots.
+;*****Industrial Mini Forge*****
+MiniForgeSmeltingMultiplier=25
+; This is the setting for how fast the Mni Industrial Forge will melt metal into ingots.
+;*****Feeding Trough******
+TroughBalanceTimer=300
+FeedingTroughPullRange=10000
+;*****Gardening*****
+CompostBinPoopDistance=10000
+; This is the setting for how far from the bin poop is picked up. (Default: 6000)
+SiloThatchBinDistance=10000
+; This is the setting for how far from the bin thatch will be pulled. (Default: 6000)
+CompostBinSpeedMult=100
+; This is the setting for how fast the bin makes poop into fertilizer. (Range: 1-100, 30 is medium speed, 100 is fast. Default: 1)
+CropPlotFillingDistance=10000
+; This is the setting for how far from the fertilizer silo crop plots will be restocked with fertilizer. (Default: 6000)
+;*****Eggs*****
+EggCratePickupDistance=10000
+; This is the setting for how far from the crate eggs are picked up. (Default: 6000)
+;*****Grinder*****
+GrinderReturnPercentage=1
+; This is the percentage of resources returned when grinding an item.
+; (Range: 0 to 1, Default: 0.25, which is 25%, for 100%, set it at 1)
+GrinderMaxItemReturn=100000
+; This is the maximum item count to return when grinding.
+GrinderExclusionList=
+; This is the setting to exclude grinding of an item.
+; Enter the items class name in a comma seperated list as follows, and that item will not be ground in the AA Grinder.
+; GrinderExclusionList=ClassName1_C,ClassName2_C,ClassName3_C
+; For example, to make the grinder not be able to grind AA Grinders, use: GrinderExclusionList=GrinderAA_C
+; To make it not grind AA Grinders, AA Consoles, and AA Vacuums, use: GrinderExclusionList=GrinderAA_C,AA_ControlConsole_C,AAVacuum_C
+; These are the class names from spawn codes, not engram entries. No spaces are needed.
+;*****Imprinting Kibble*****
+KibbleImprintPercent=100
+; This setting is how much of an imprint each kibble gives. (1-100, Default: 25, which is 25%)
+KibbleGrowthSpeed=100
+; This setting is a multiplier, for how fast the baby grows. (1-100, Default 2, which is 2x)
+; Additional kibble does not compound the growth speed.
+;*****Engram Pod*****
+EngramDelay=0.1
+; This is the how long in seconds between each engram unlock.
+; *Note there are around 700 Vanilla Engrams. The delay should help reduce lag on servers when someone learns engrams.
+UnlockAllEngrams=True
+; When set to "True" adds an option to the radial menu that allows players to unlock all engrams in the game no matter their level or number of available engram points.
+;*****Medical Station*****
+MedStationHealRate=5
+; How long in seconds between healing pulses. (5-60, Default: 5)
+; Each pulse is 5% of dinos health.
+; To calculate full healing time take (INItime x 20)=Total seconds for full heal from 0 health to 100.
+;*****Repair Station*****
+RepairCooldownMedStationHealRate=300
+; How long in seconds between repair pulses. (300-3600, Default: 300)
+;*****Ant Hill*****
+AntHillSpawnRate=60
+; Can range from 20 to 900 seconds between any spawns depending on how much CP you want. (Default is 120 seconds) 

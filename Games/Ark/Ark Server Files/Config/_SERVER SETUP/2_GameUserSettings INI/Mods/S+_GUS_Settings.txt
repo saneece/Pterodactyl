@@ -1,0 +1,11 @@
+[StructuresPlus]
+RemoveFloorRequirementFromStructurePlacement=true
+EnableEngramOverride=true
+OverrideTekEngrams=true
+TekEngramOverrideLevel=100
+AllowIntakeToPlaceWithoutWater=true
+PreventCloningClonedDinos=true
+NannyRangeInFoundations=15
+AllowMakingWeaponsAndArmorBPs=true
+AllowTekItemBlueprintCreation=true
+RemoveLearnedEngramRequirementFromConverter=true

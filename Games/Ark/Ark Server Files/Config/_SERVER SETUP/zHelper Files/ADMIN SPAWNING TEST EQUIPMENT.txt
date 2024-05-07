@@ -1,0 +1,17 @@
+S+ FOUNDATION
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Glass/PrimalItemStructure_Foundation_Glass.PrimalItemStructure_Foundation_Glass'" 100 0 0
+
+S+ CEILING
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Glass/PrimalItemStructure_Ceiling_Glass.PrimalItemStructure_Ceiling_Glass'" 100 0 0
+
+S+ WALL
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls/Glass/PrimalItemStructure_Wall_Glass.PrimalItemStructure_Wall_Glass'" 100 0 0
+
+S+ GASOLINE
+cheat giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline'" 1 0 0
+
+FMK TABLES
+admincheat GiveItem "Blueprint'/Game/Mods/FMK2/BP/Table/PrimalItemStructure_FMKTable.PrimalItemStructure_FMKTable'" 1 1 0
+admincheat GiveItem "Blueprint'/Game/Mods/FMK2/BP/Table/KibbleFridge/PrimalItemStructure_FMKTableKP.PrimalItemStructure_FMKTableKP'" 1 1 0
+admincheat GiveItem "Blueprint'/Game/Mods/FMK2/BP/Table/RAT/PrimalItemStructure_FMKTableRAT.PrimalItemStructure_FMKTableRAT'" 1 1 0
+admincheat GiveItem "Blueprint'/Game/Mods/FMK2/BP/Table/ToolsTranqs/PrimalItemStructure_FMKTableTT.PrimalItemStructure_FMKTableTT'" 1 1 0
