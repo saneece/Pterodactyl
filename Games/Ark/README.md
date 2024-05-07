@@ -22,10 +22,16 @@
 
 ### Ark: SE Workshop Collections:
 
-  1. All Collections "Ark > Workstop > Your Files (Drop down on the right side menu) > Your Favorites > Show: By Trep (on the top of the page) > Collections"
-     - OR: https://steamcommunity.com/profiles/76561198001411306/myworkshopfiles/?section=collections&appid=346110
-  2. Create new collection or choose existing (Kingdom Default)
-  3. Subscribe to Collection to begin pre-downloading mods
+  1. Go to Steam > All Collections
+     - Ark >
+     - Workshop >
+     - Your Files (Drop down on the right side menu) >
+     - Your Favorites >
+     - Show: By Trep (on the top of the page) >
+     - Collections
+       - OR: https://steamcommunity.com/profiles/76561198001411306/myworkshopfiles/?section=collections&appid=346110
+  3. Create new collection or choose existing (Kingdom Default)
+  4. Subscribe to Collection to begin pre-downloading mods
 
 ## Edit Game Files to tweak settings, configure mods and add player white list
 
