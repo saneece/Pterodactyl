@@ -1,0 +1,378 @@
+Crafting
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Crafting/Station/PrimalItemStructure_SPlusCraftingStation.PrimalItemStructure_SPlusCraftingStation'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Crafting/Smithy/PrimalItemStructure_SmithyPlus.PrimalItemStructure_SmithyPlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Crafting/MortarPestle/PrimalItemStructure_MortarPestlePlus.PrimalItemStructure_MortarPestlePlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Crafting/RefiningForge/PrimalItemStructure_ForgePlus.PrimalItemStructure_ForgePlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Crafting/Fabricator/PrimalItemStructure_FabricatorPlus.PrimalItemStructure_FabricatorPlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Crafting/ChemistryBench/PrimalItemStructure_ChemBenchPlus.PrimalItemStructure_ChemBenchPlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/IndustrialCookingPot/PrimalItemStructure_IndustrialCooker.PrimalItemStructure_IndustrialCooker'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/IndustrialForge/PrimalItemStructure_IndustrialForgePlus.PrimalItemStructure_IndustrialForgePlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/IndustrialGrill/PrimalItemStructure_IndustrialGrill.PrimalItemStructure_IndustrialGrill'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/IndustrialGrinder/PrimalItemStructure_GrinderPlus.PrimalItemStructure_GrinderPlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Crafting/Replicator/PrimalItemStructure_ReplicatorPlus.PrimalItemStructure_ReplicatorPlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Crafting/BeerBarrel/PrimalItemStructure_BeerBarrelPlus.PrimalItemStructure_BeerBarrelPlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Crafting/Campfire/PrimalItemStructure_CampfirePlus.PrimalItemStructure_CampfirePlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Crafting/CompostBin/PrimalItemStructure_CompostBinPlus.PrimalItemStructure_CompostBinPlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Crafting/CookingPot/PrimalItemStructure_CookingPotPlus.PrimalItemStructure_CookingPotPlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Crafting/Fireplace/PrimalItemStructure_FireplacePlus.PrimalItemStructure_FireplacePlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Crafting/PreservingBin/PrimalItemStructure_PreservingBinPlus.PrimalItemStructure_PreservingBinPlus'" 1 1 0
+
+Misc
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Items/RemoteTransparencyCycler/PrimalItem_TransparencyCycler.PrimalItem_TransparencyCycler'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Items/RemoteModelSelector/PrimalItem_ModelSelector.PrimalItem_ModelSelector'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Items/RemoteResourcePuller/PrimalItem_ResourcePuller.PrimalItem_ResourcePuller'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Items/RemoteDemolisher/PrimalItem_DemoGun.PrimalItem_DemoGun'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Items/RemoteRepairer/PrimalItem_RepairGun.PrimalItem_RepairGun'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Items/RemoteTurretTool/PrimalItem_TurretConfigurator.PrimalItem_TurretConfigurator'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/InsulationNegator/PrimalItemStructure_InsulationNegator.PrimalItemStructure_InsulationNegator'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/TreeSapTap/PrimalItemStructure_TreeSapTapPlus.PrimalItemStructure_TreeSapTapPlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/Gardener/PrimalItemStructure_Gardener.PrimalItemStructure_Gardener'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/AutoTurret/PrimalItemStructure_AutoTurret.PrimalItemStructure_AutoTurret'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/FeedingTrough/PrimalItemStructure_FeedingTroughPlus.PrimalItemStructure_FeedingTroughPlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/TorchStanding/PrimalItemStructure_StandingTorchPlus.PrimalItemStructure_StandingTorchPlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/TorchWall/PrimalItemStructure_WallTorchPlus.PrimalItemStructure_WallTorchPlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/ItemCollector/PrimalItemStructure_ItemCollector.PrimalItemStructure_ItemCollector'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Items/RemoteTransferGun/PrimalItem_TransferGun.PrimalItem_TransferGun'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/Fridge/PrimalItemStructure_FridgePlus.PrimalItemStructure_FridgePlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/StorageSmall/PrimalItemStructure_StorageSmall.PrimalItemStructure_StorageSmall'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/StorageLarge/PrimalItemStructure_StorageLarge.PrimalItemStructure_StorageLarge'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/StorageMetal/PrimalItemStructure_StorageMetal.PrimalItemStructure_StorageMetal'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/Vault/PrimalItemStructure_VaultPlus.PrimalItemStructure_VaultPlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/Forcefield/PrimalItemStructure_TekForcefield.PrimalItemStructure_TekForcefield'" 1 1 0
+
+Foundations
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Thatch/PrimalItemStructure_Foundation_Thatch.PrimalItemStructure_Foundation_Thatch'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Wood/PrimalItemStructure_Foundation_Wood.PrimalItemStructure_Foundation_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Stone/PrimalItemStructure_Foundation_Stone.PrimalItemStructure_Foundation_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Metal/PrimalItemStructure_Foundation_Metal.PrimalItemStructure_Foundation_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Glass/PrimalItemStructure_Foundation_Glass.PrimalItemStructure_Foundation_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Adobe/PrimalItemStructure_Foundation_Adobe.PrimalItemStructure_Foundation_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Tek/PrimalItemStructure_Foundation_Tek.PrimalItemStructure_Foundation_Tek'" 3 1 0
+
+Triangle Foundations
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Foundations/Triangle/Wood/PrimalItemStructure_TriFoundation_Wood.PrimalItemStructure_TriFoundation_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Foundations/Triangle/Stone/PrimalItemStructure_TriFoundation_Stone.PrimalItemStructure_TriFoundation_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Foundations/Triangle/Metal/PrimalItemStructure_TriFoundation_Metal.PrimalItemStructure_TriFoundation_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Foundations/Triangle/Glass/PrimalItemStructure_TriFoundation_Glass.PrimalItemStructure_TriFoundation_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Foundations/Triangle/Adobe/PrimalItemStructure_TriFoundation_Adobe.PrimalItemStructure_TriFoundation_Adobe'" 3 1 0
+
+Ceilings
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Thatch/PrimalItemStructure_Ceiling_Thatch.PrimalItemStructure_Ceiling_Thatch'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Wood/PrimalItemStructure_Ceiling_Wood.PrimalItemStructure_Ceiling_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Stone/PrimalItemStructure_Ceiling_Stone.PrimalItemStructure_Ceiling_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Metal/PrimalItemStructure_Ceiling_Metal.PrimalItemStructure_Ceiling_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Greenhouse/PrimalItemStructure_Ceiling_Greenhouse.PrimalItemStructure_Ceiling_Greenhouse'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Glass/PrimalItemStructure_Ceiling_Glass.PrimalItemStructure_Ceiling_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Adobe/PrimalItemStructure_Ceiling_Adobe.PrimalItemStructure_Ceiling_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Tek/PrimalItemStructure_Ceiling_Tek.PrimalItemStructure_Ceiling_Tek'" 3 1 0
+
+Triangle Ceilings
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Triangle/Wood/PrimalItemStructure_TriCeiling_Wood.PrimalItemStructure_TriCeiling_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Triangle/Stone/PrimalItemStructure_TriCeiling_Stone.PrimalItemStructure_TriCeiling_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Triangle/Metal/PrimalItemStructure_TriCeiling_Metal.PrimalItemStructure_TriCeiling_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Triangle/Greenhouse/PrimalItemStructure_TriCeiling_Greenhouse.PrimalItemStructure_TriCeiling_Greenhouse'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Triangle/Glass/PrimalItemStructure_TriCeiling_Glass.PrimalItemStructure_TriCeiling_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Triangle/Adobe/PrimalItemStructure_TriCeiling_Adobe.PrimalItemStructure_TriCeiling_Adobe'" 3 1 0
+
+Hatchframes
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/HatchFrames/Wood/PrimalItemStructure_Hatchframe_Wood.PrimalItemStructure_Hatchframe_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/HatchFrames/Stone/PrimalItemStructure_Hatchframe_Stone.PrimalItemStructure_Hatchframe_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/HatchFrames/Metal/PrimalItemStructure_Hatchframe_Metal.PrimalItemStructure_Hatchframe_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/HatchFrames/Glass/PrimalItemStructure_Hatchframe_Glass.PrimalItemStructure_Hatchframe_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/HatchFrames/Adobe/PrimalItemStructure_Hatchframe_Adobe.PrimalItemStructure_Hatchframe_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/HatchFrames/Tek/PrimalItemStructure_Hatchframe_Tek.PrimalItemStructure_Hatchframe_Tek'" 3 1 0
+
+Trapdoors
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Trapdoors/Wood/PrimalItemStructure_Trapdoor_Wood.PrimalItemStructure_Trapdoor_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Trapdoors/Stone/PrimalItemStructure_Trapdoor_Stone.PrimalItemStructure_Trapdoor_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Trapdoors/Metal/PrimalItemStructure_Trapdoor_Metal.PrimalItemStructure_Trapdoor_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Trapdoors/Glass/PrimalItemStructure_Trapdoor_Glass.PrimalItemStructure_Trapdoor_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Trapdoors/Adobe/PrimalItemStructure_Trapdoor_Adobe.PrimalItemStructure_Trapdoor_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Trapdoors/Tek/PrimalItemStructure_Trapdoor_Tek.PrimalItemStructure_Trapdoor_Tek'" 3 1 0
+
+Large Hatchframes
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/HatchFrames_L/Stone/PrimalItemStructure_LargeHatchframe_Stone.PrimalItemStructure_LargeHatchframe_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/HatchFrames_L/Metal/PrimalItemStructure_LargeHatchframe_Metal.PrimalItemStructure_LargeHatchframe_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/HatchFrames_L/Adobe/PrimalItemStructure_LargeHatchframe_Adobe.PrimalItemStructure_LargeHatchframe_Adobe'" 3 1 0
+
+Large Sloped Hatchframe
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Hatchframes_L_S/Stone/PrimalItemStructure_LargeHatchframeSloped_Stone.PrimalItemStructure_LargeHatchframeSloped_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Hatchframes_L_S/Metal/PrimalItemStructure_LargeHatchframeSloped_Metal.PrimalItemStructure_LargeHatchframeSloped_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Hatchframes_L_S/Adobe/PrimalItemStructure_LargeHatchframeSloped_Adobe.PrimalItemStructure_LargeHatchframeSloped_Adobe'" 3 1 0
+
+Large Trapdoors
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Trapdoors_L/Stone/PrimalItemStructure_LargeTrapdoor_Stone.PrimalItemStructure_LargeTrapdoor_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Trapdoors_L/Metal/PrimalItemStructure_LargeTrapdoor_Metal.PrimalItemStructure_LargeTrapdoor_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Trapdoors_L/Glass/PrimalItemStructure_LargeTrapdoor_Glass.PrimalItemStructure_LargeTrapdoor_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Trapdoors_L/Adobe/PrimalItemStructure_LargeTrapdoor_Adobe.PrimalItemStructure_LargeTrapdoor_Adobe'" 3 1 0
+
+Behemoth Hatchframes
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Hatchframes_XL/Stone/PrimalItemStructure_XLHatchframe_Stone.PrimalItemStructure_XLHatchframe_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Hatchframes_XL/Metal/PrimalItemStructure_XLHatchframe_Metal.PrimalItemStructure_XLHatchframe_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Hatchframes_XL/Adobe/PrimalItemStructure_XLHatchframe_Adobe.PrimalItemStructure_XLHatchframe_Adobe'" 3 1 0
+
+Behemoth Sloped Hatchframes
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Hatchframes_XL_S/Stone/PrimalItemStructure_XLHatchframeSloped_Stone.PrimalItemStructure_XLHatchframeSloped_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Hatchframes_XL_S/Metal/PrimalItemStructure_XLHatchframeSloped_Metal.PrimalItemStructure_XLHatchframeSloped_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Hatchframes_XL_S/Adobe/PrimalItemStructure_XLHatchframeSloped_Adobe.PrimalItemStructure_XLHatchframeSloped_Adobe'" 3 1 0
+
+Behemoth Trapdoors
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Trapdoors_XL/Stone/PrimalItemStructure_XLTrapdoor_Stone.PrimalItemStructure_XLTrapdoor_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Trapdoors_XL/Metal/PrimalItemStructure_XLTrapdoor_Metal.PrimalItemStructure_XLTrapdoor_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Trapdoors_XL/Glass/PrimalItemStructure_XLTrapdoor_Glass.PrimalItemStructure_XLTrapdoor_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Trapdoors_XL/Adobe/PrimalItemStructure_XLTrapdoor_Adobe.PrimalItemStructure_XLTrapdoor_Adobe'" 3 1 0
+
+Walls
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls/Thatch/PrimalItemStructure_Wall_Thatch.PrimalItemStructure_Wall_Thatch'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls/Wood/PrimalItemStructure_Wall_Wood.PrimalItemStructure_Wall_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls/Stone/PrimalItemStructure_Wall_Stone.PrimalItemStructure_Wall_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls/Metal/PrimalItemStructure_Wall_Metal.PrimalItemStructure_Wall_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls/Greenhouse/PrimalItemStructure_Wall_Greenhouse.PrimalItemStructure_Wall_Greenhouse'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls/Glass/PrimalItemStructure_Wall_Glass.PrimalItemStructure_Wall_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls/Adobe/PrimalItemStructure_Wall_Adobe.PrimalItemStructure_Wall_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls/Tek/PrimalItemStructure_Wall_Tek.PrimalItemStructure_Wall_Tek'" 3 1 0
+
+Large Walls
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls_L/Wood/PrimalItemStructure_LargeWall_Wood.PrimalItemStructure_LargeWall_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls_L/Stone/PrimalItemStructure_LargeWall_Stone.PrimalItemStructure_LargeWall_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls_L/Metal/PrimalItemStructure_LargeWall_Metal.PrimalItemStructure_LargeWall_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls_L/Glass/PrimalItemStructure_LargeWall_Glass.PrimalItemStructure_LargeWall_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls_L/Adobe/PrimalItemStructure_LargeWall_Adobe.PrimalItemStructure_LargeWall_Adobe'" 3 1 0
+
+XL Walls
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls_XL/Wood/PrimalItemStructure_XLWall_Wood.PrimalItemStructure_XLWall_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls_XL/Stone/PrimalItemStructure_XLWall_Stone.PrimalItemStructure_XLWall_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls_XL/Metal/PrimalItemStructure_XLWall_Metal.PrimalItemStructure_XLWall_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls_XL/Glass/PrimalItemStructure_XLWall_Glass.PrimalItemStructure_XLWall_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls_XL/Adobe/PrimalItemStructure_XLWall_Adobe.PrimalItemStructure_XLWall_Adobe'" 3 1 0
+
+Window Walls
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/WindowWalls/Wood/PrimalItemStructure_WindowWall_Wood.PrimalItemStructure_WindowWall_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/WindowWalls/Stone/PrimalItemStructure_WindowWall_Stone.PrimalItemStructure_WindowWall_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/WindowWalls/Metal/PrimalItemStructure_WindowWall_Metal.PrimalItemStructure_WindowWall_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/WindowWalls/Adobe/PrimalItemStructure_WindowWall_Adobe.PrimalItemStructure_WindowWall_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/WindowWalls/Tek/PrimalItemStructure_WindowWall_Tek.PrimalItemStructure_WindowWall_Tek'" 3 1 0
+
+Windows
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Windows/Wood/PrimalItemStructure_Window_Wood.PrimalItemStructure_Window_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Windows/Stone/PrimalItemStructure_Window_Stone.PrimalItemStructure_Window_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Windows/Metal/PrimalItemStructure_Window_Metal.PrimalItemStructure_Window_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Windows/Greenhouse/PrimalItemStructure_Window_Greenhouse.PrimalItemStructure_Window_Greenhouse'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Windows/Glass/PrimalItemStructure_Window_Glass.PrimalItemStructure_Window_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Windows/Adobe/PrimalItemStructure_Window_Adobe.PrimalItemStructure_Window_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Windows/Tek/PrimalItemStructure_Window_Tek.PrimalItemStructure_Window_Tek'" 3 1 0
+
+Ramps
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ramps/Wood/PrimalItemStructure_Ramp_Wood.PrimalItemStructure_Ramp_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ramps/Metal/PrimalItemStructure_Ramp_Metal.PrimalItemStructure_Ramp_Metal'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ramps/Glass/PrimalItemStructure_Ramp_Glass.PrimalItemStructure_Ramp_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ramps/Adobe/PrimalItemStructure_Ramp_Adobe.PrimalItemStructure_Ramp_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ramps/Tek/PrimalItemStructure_Ramp_Tek.PrimalItemStructure_Ramp_Tek'" 3 1 0
+
+Railings
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Railings/Wood/PrimalItemStructure_Railing_Wood.PrimalItemStructure_Railing_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Railings/Stone/PrimalItemStructure_Railing_Stone.PrimalItemStructure_Railing_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Railings/Metal/PrimalItemStructure_Railing_Metal.PrimalItemStructure_Railing_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Railings/Adobe/PrimalItemStructure_Railing_Adobe.PrimalItemStructure_Railing_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Railings/Tek/PrimalItemStructure_Railing_Tek.PrimalItemStructure_Railing_Tek'" 3 1 0
+
+Fence Foundations
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/FenceFoundations/Wood/PrimalItemStructure_FenceFoundation_Wood.PrimalItemStructure_FenceFoundation_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/FenceFoundations/Stone/PrimalItemStructure_FenceFoundation_Stone.PrimalItemStructure_FenceFoundation_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/FenceFoundations/Metal/PrimalItemStructure_FenceFoundation_Metal.PrimalItemStructure_FenceFoundation_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/FenceFoundations/Adobe/PrimalItemStructure_FenceFoundation_Adobe.PrimalItemStructure_FenceFoundation_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/FenceFoundations/Tek/PrimalItemStructure_FenceFoundation_Tek.PrimalItemStructure_FenceFoundation_Tek'" 3 1 0
+
+Fence Supports
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/FenceSupports/Wood/PrimalItemStructure_FenceSupport_Wood.PrimalItemStructure_FenceSupport_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/FenceSupports/Stone/PrimalItemStructure_FenceSupport_Stone.PrimalItemStructure_FenceSupport_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/FenceSupports/Metal/PrimalItemStructure_FenceSupport_Metal.PrimalItemStructure_FenceSupport_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/FenceSupports/Adobe/PrimalItemStructure_FenceSupport_Adobe.PrimalItemStructure_FenceSupport_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/FenceSupports/Tek/PrimalItemStructure_FenceSupport_Tek.PrimalItemStructure_FenceSupport_Tek'" 3 1 0
+
+Spike Walls
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/SpikeWall/Wood/PrimalItemStructure_SpikeWall_Wood.PrimalItemStructure_SpikeWall_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/SpikeWall/Metal/PrimalItemStructure_SpikeWall_Metal.PrimalItemStructure_SpikeWall_Metal'" 3 1 0
+
+Sloped Walls Left
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Thatch/PrimalItemStructure_SlopedWall_Thatch_Left.PrimalItemStructure_SlopedWall_Thatch_Left'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Wood/PrimalItemStructure_SlopedWall_Wood_Left.PrimalItemStructure_SlopedWall_Wood_Left'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Stone/PrimalItemStructure_SlopedWall_Stone_Left.PrimalItemStructure_SlopedWall_Stone_Left'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Metal/PrimalItemStructure_SlopedWall_Metal_Left.PrimalItemStructure_SlopedWall_Metal_Left'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Glass/PrimalItemStructure_SlopedWall_Glass_Left.PrimalItemStructure_SlopedWall_Glass_Left'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Greenhouse/PrimalItemStructure_SlopedWall_Greenhouse_Left.PrimalItemStructure_SlopedWall_Greenhouse_Left'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Adobe/PrimalItemStructure_SlopedWall_Adobe_Left.PrimalItemStructure_SlopedWall_Adobe_Left'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Tek/PrimalItemStructure_SlopedWall_Tek_Left.PrimalItemStructure_SlopedWall_Tek_Left'" 3 1 0
+
+Sloped Walls Right
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Thatch/PrimalItemStructure_SlopedWall_Thatch_Right.PrimalItemStructure_SlopedWall_Thatch_Right'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Wood/PrimalItemStructure_SlopedWall_Wood_Right.PrimalItemStructure_SlopedWall_Wood_Right'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Stone/PrimalItemStructure_SlopedWall_Stone_Right.PrimalItemStructure_SlopedWall_Stone_Right'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Metal/PrimalItemStructure_SlopedWall_Metal_Right.PrimalItemStructure_SlopedWall_Metal_Right'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Glass/PrimalItemStructure_SlopedWall_Glass_Right.PrimalItemStructure_SlopedWall_Glass_Right'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Greenhouse/PrimalItemStructure_SlopedWall_Greenhouse_Right.PrimalItemStructure_SlopedWall_Greenhouse_Right'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Adobe/PrimalItemStructure_SlopedWall_Adobe_Right.PrimalItemStructure_SlopedWall_Adobe_Right'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Tek/PrimalItemStructure_SlopedWall_Tek_Right.PrimalItemStructure_SlopedWall_Tek_Right'" 3 1 0
+
+Roofs
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Roofs/Thatch/PrimalItemStructure_Roof_Thatch.PrimalItemStructure_Roof_Thatch'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Roofs/Wood/PrimalItemStructure_Roof_Wood.PrimalItemStructure_Roof_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Roofs/Stone/PrimalItemStructure_Roof_Stone.PrimalItemStructure_Roof_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Roofs/Metal/PrimalItemStructure_Roof_Metal.PrimalItemStructure_Roof_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Roofs/Glass/PrimalItemStructure_Roof_Glass.PrimalItemStructure_Roof_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Roofs/Greenhouse/PrimalItemStructure_Roof_Greenhouse.PrimalItemStructure_Roof_Greenhouse'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Roofs/Adobe/PrimalItemStructure_Roof_Adobe.PrimalItemStructure_Roof_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Roofs/Tek/PrimalItemStructure_Roof_Tek.PrimalItemStructure_Roof_Tek'" 3 1 0
+
+Triangle Roofs
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Roofs_Tri/Wood/PrimalItemStructure_TriRoof_Wood.PrimalItemStructure_TriRoof_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Roofs_Tri/Stone/PrimalItemStructure_TriRoof_Stone.PrimalItemStructure_TriRoof_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Roofs_Tri/Metal/PrimalItemStructure_TriRoof_Metal.PrimalItemStructure_TriRoof_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Roofs_Tri/Greenhouse/PrimalItemStructure_TriRoof_Greenhouse.PrimalItemStructure_TriRoof_Greenhouse'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Roofs_Tri/Glass/PrimalItemStructure_TriRoof_Glass.PrimalItemStructure_TriRoof_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Roofs_Tri/Adobe/PrimalItemStructure_TriRoof_Adobe.PrimalItemStructure_TriRoof_Adobe'" 3 1 0
+
+Catwalks
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Catwalks/Wood/PrimalItemStructure_Catwalk_Wood.PrimalItemStructure_Catwalk_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Catwalks/Metal/PrimalItemStructure_Catwalk_Metal.PrimalItemStructure_Catwalk_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Catwalks/Glass/PrimalItemStructure_Catwalk_Glass.PrimalItemStructure_Catwalk_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Catwalks/Tek/PrimalItemStructure_Catwalk_Tek.PrimalItemStructure_Catwalk_Tek'" 3 1 0
+
+Doorframes
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Doorframes/Thatch/PrimalItemStructure_Doorframe_Thatch.PrimalItemStructure_Doorframe_Thatch'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Doorframes/Wood/PrimalItemStructure_Doorframe_Wood.PrimalItemStructure_Doorframe_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Doorframes/Stone/PrimalItemStructure_Doorframe_Stone.PrimalItemStructure_Doorframe_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Doorframes/Metal/PrimalItemStructure_Doorframe_Metal.PrimalItemStructure_Doorframe_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Doorframes/Greenhouse/PrimalItemStructure_Doorframe_Greenhouse.PrimalItemStructure_Doorframe_Greenhouse'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Doorframes/Glass/PrimalItemStructure_Doorframe_Glass.PrimalItemStructure_Doorframe_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Doorframes/Adobe/PrimalItemStructure_Doorframe_Adobe.PrimalItemStructure_Doorframe_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Doorframes/Tek/PrimalItemStructure_Doorframe_Tek.PrimalItemStructure_Doorframe_Tek'" 3 1 0
+
+Doors
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Doors/Thatch/PrimalItemStructure_Door_Thatch.PrimalItemStructure_Door_Thatch'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Doors/Wood/PrimalItemStructure_Door_Wood.PrimalItemStructure_Door_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Doors/Stone/PrimalItemStructure_Door_Stone.PrimalItemStructure_Door_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Doors/Metal/PrimalItemStructure_Door_Metal.PrimalItemStructure_Door_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Doors/Greenhouse/PrimalItemStructure_Door_Greenhouse.PrimalItemStructure_Door_Greenhouse'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Doors/Glass/PrimalItemStructure_Door_Glass.PrimalItemStructure_Door_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Doors/Adobe/PrimalItemStructure_Door_Adobe.PrimalItemStructure_Door_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Doors/Tek/PrimalItemStructure_Door_Tek.PrimalItemStructure_Door_Tek'" 3 1 0
+
+Small Gateways
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Gateways/Small/Wood/PrimalItemStructure_Gateway_Wood.PrimalItemStructure_Gateway_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Gateways/Small/Stone/PrimalItemStructure_Gateway_Stone.PrimalItemStructure_Gateway_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Gateways/Small/Metal/PrimalItemStructure_Gateway_Metal.PrimalItemStructure_Gateway_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Gateways/Small/Adobe/PrimalItemStructure_Gateway_Adobe.PrimalItemStructure_Gateway_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Gateways/Small/Tek/PrimalItemStructure_Gateway_Tek.PrimalItemStructure_Gateway_Tek'" 3 1 0
+
+Small Gates
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Gates/Small/Wood/PrimalItemStructure_Gate_Wood.PrimalItemStructure_Gate_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Gates/Small/Stone/PrimalItemStructure_Gate_Stone.PrimalItemStructure_Gate_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Gates/Small/Metal/PrimalItemStructure_Gate_Metal.PrimalItemStructure_Gate_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Gates/Small/Glass/PrimalItemStructure_Gate_Glass.PrimalItemStructure_Gate_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Gates/Small/Adobe/PrimalItemStructure_Gate_Adobe.PrimalItemStructure_Gate_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Gates/Small/Tek/PrimalItemStructure_Gate_Tek.PrimalItemStructure_Gate_Tek'" 3 1 0
+
+Large Gateways
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Gateways/Large/Stone/PrimalItemStructure_LargeGateway_Stone.PrimalItemStructure_LargeGateway_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Gateways/Large/Metal/PrimalItemStructure_LargeGateway_Metal.PrimalItemStructure_LargeGateway_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Gateways/Large/Adobe/PrimalItemStructure_LargeGateway_Adobe.PrimalItemStructure_LargeGateway_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Gateways/Large/Tek/PrimalItemStructure_LargeGateway_Tek.PrimalItemStructure_LargeGateway_Tek'" 3 1 0
+
+Large Gates
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Gates/Large/Stone/PrimalItemStructure_LargeGate_Stone.PrimalItemStructure_LargeGate_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Gates/Large/Metal/PrimalItemStructure_LargeGate_Metal.PrimalItemStructure_LargeGate_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Gates/Large/Glass/PrimalItemStructure_LargeGate_Glass.PrimalItemStructure_LargeGate_Glass'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Gates/Large/Adobe/PrimalItemStructure_LargeGate_Adobe.PrimalItemStructure_LargeGate_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Doors/Gates/Large/Tek/PrimalItemStructure_LargeGate_Tek.PrimalItemStructure_LargeGate_Tek'" 3 1 0
+
+Ladders
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Ladders/Wood/PrimalItemStructure_Ladder_Wood.PrimalItemStructure_Ladder_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Ladders/Rope/PrimalItemStructure_Ladder_Rope.PrimalItemStructure_Ladder_Rope'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Ladders/Metal/PrimalItemStructure_Ladder_Metal.PrimalItemStructure_Ladder_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Ladders/Adobe/PrimalItemStructure_Ladder_Adobe.PrimalItemStructure_Ladder_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Ladders/Tek/PrimalItemStructure_Ladder_Tek.PrimalItemStructure_Ladder_Tek'" 3 1 0
+
+Staircases
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Staircases/Wood/PrimalItemStructure_Staircase_Wood.PrimalItemStructure_Staircase_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Staircases/Stone/PrimalItemStructure_Staircase_Stone.PrimalItemStructure_Staircase_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Staircases/Metal/PrimalItemStructure_Staircase_Metal.PrimalItemStructure_Staircase_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Staircases/Adobe/PrimalItemStructure_Staircase_Adobe.PrimalItemStructure_Staircase_Adobe'" 3 1 0
+
+Small Pillars
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Small/Wood/PrimalItemStructure_SmallPillar_Wood.PrimalItemStructure_SmallPillar_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Small/Stone/PrimalItemStructure_SmallPillar_Stone.PrimalItemStructure_SmallPillar_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Small/Metal/PrimalItemStructure_SmallPillar_Metal.PrimalItemStructure_SmallPillar_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Small/Adobe/PrimalItemStructure_SmallPillar_Adobe.PrimalItemStructure_SmallPillar_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Small/Tek/PrimalItemStructure_SmallPillar_Tek.PrimalItemStructure_SmallPillar_Tek'" 3 1 0
+
+Medium Pillars
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Medium/Wood/PrimalItemStructure_MediumPillar_Wood.PrimalItemStructure_MediumPillar_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Medium/Stone/PrimalItemStructure_MediumPillar_Stone.PrimalItemStructure_MediumPillar_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Medium/Metal/PrimalItemStructure_MediumPillar_Metal.PrimalItemStructure_MediumPillar_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Medium/Adobe/PrimalItemStructure_MediumPillar_Adobe.PrimalItemStructure_MediumPillar_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Medium/Tek/PrimalItemStructure_MediumPillar_Tek.PrimalItemStructure_MediumPillar_Tek'" 3 1 0
+
+Large Pillars
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Large/Wood/PrimalItemStructure_LargePillar_Wood.PrimalItemStructure_LargePillar_Wood'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Large/Stone/PrimalItemStructure_LargePillar_Stone.PrimalItemStructure_LargePillar_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Large/Metal/PrimalItemStructure_LargePillar_Metal.PrimalItemStructure_LargePillar_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Large/Adobe/PrimalItemStructure_LargePillar_Adobe.PrimalItemStructure_LargePillar_Adobe'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Large/Tek/PrimalItemStructure_LargePillar_Tek.PrimalItemStructure_LargePillar_Tek'" 3 1 0
+
+Crop Plots
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/CropPlots/Small/PrimalItemStructure_CropPlotPlus_Small.PrimalItemStructure_CropPlotPlus_Small'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/CropPlots/Medium/PrimalItemStructure_CropPlotPlus_Medium.PrimalItemStructure_CropPlotPlus_Medium'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/CropPlots/Large/PrimalItemStructure_CropPlotPlus_Large.PrimalItemStructure_CropPlotPlus_Large'" 3 1 0
+
+Pipes (Stone)
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Horizontal/Stone/PrimalItemStructure_PipeHorizontal_Stone.PrimalItemStructure_PipeHorizontal_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Incline/Stone/PrimalItemStructure_PipeIncline_Stone.PrimalItemStructure_PipeIncline_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Intake/Stone/PrimalItemStructure_PipeIntake_Stone.PrimalItemStructure_PipeIntake_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Intersection/Stone/PrimalItemStructure_PipeIntersection_Stone.PrimalItemStructure_PipeIntersection_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Tap/Stone/PrimalItemStructure_WaterTap_Stone.PrimalItemStructure_WaterTap_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Vertical/Stone/PrimalItemStructure_PipeVertical_Stone.PrimalItemStructure_PipeVertical_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Flex/Stone/PrimalItemStructure_PipeFlex_Stone.PrimalItemStructure_PipeFlex_Stone'" 3 1 0
+
+Pipes (Metal)
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Horizontal/Metal/PrimalItemStructure_PipeHorizontal_Metal.PrimalItemStructure_PipeHorizontal_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Incline/Metal/PrimalItemStructure_PipeIncline_Metal.PrimalItemStructure_PipeIncline_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Intake/Metal/PrimalItemStructure_PipeIntake_Metal.PrimalItemStructure_PipeIntake_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Intersection/Metal/PrimalItemStructure_PipeIntersection_Metal.PrimalItemStructure_PipeIntersection_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Tap/Metal/PrimalItemStructure_WaterTap_Metal.PrimalItemStructure_WaterTap_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Vertical/Metal/PrimalItemStructure_PipeVertical_Metal.PrimalItemStructure_PipeVertical_Metal'" 3 1 0 
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Flex/Metal/PrimalItemStructure_PipeFlex_Metal.PrimalItemStructure_PipeFlex_Metal'" 3 1 0
+
+Internal Pipes
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Internal/Square/PrimalItemStructure_InternalPipe_Square.PrimalItemStructure_InternalPipe_Square'" 3 1 0 
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Internal/Wall/PrimalItemStructure_InternalPipe_Wall.PrimalItemStructure_InternalPipe_Wall'" 3 1 0 
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Pipes/Internal/Triangle/PrimalItemStructure_InternalPipe_Triangle.PrimalItemStructure_InternalPipe_Triangle'" 3 1 0
+
+Water Tanks
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/WaterTanks/Stone/PrimalItemStructure_WaterTank_Stone.PrimalItemStructure_WaterTank_Stone'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/WaterTanks/Metal/PrimalItemStructure_WaterTank_Metal.PrimalItemStructure_WaterTank_Metal'" 3 1 0
+
+Wires
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Wires/Horizontal/PrimalItemStructure_Wire_Horizontal.PrimalItemStructure_Wire_Horizontal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Wires/Incline/PrimalItemStructure_Wire_Incline.PrimalItemStructure_Wire_Incline'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Wires/Intersection/PrimalItemStructure_Wire_Intersection.PrimalItemStructure_Wire_Intersection'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Wires/Vertical/PrimalItemStructure_Wire_Vertical.PrimalItemStructure_Wire_Vertical'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Wires/Flex/PrimalItemStructure_Wire_Flex.PrimalItemStructure_Wire_Flex'" 3 1 0
+
+Internal Wires
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Wires/Internal/Square/PrimalItemStructure_InternalWire_Square.PrimalItemStructure_InternalWire_Square'" 3 1 0 
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Wires/Internal/Wall/PrimalItemStructure_InternalWire_Wall.PrimalItemStructure_InternalWire_Wall'" 3 1 0 
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Wires/Internal/Triangle/PrimalItemStructure_InternalWire_Triangle.PrimalItemStructure_InternalWire_Triangle'" 3 1 0
+
+Electric
+GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/Generator/PrimalItemStructure_Generator.PrimalItemStructure_Generator'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/GeneratorWind/PrimalItemStructure_WindTurbinePlus.PrimalItemStructure_WindTurbinePlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/Outlet/PrimalItemStructure_ElectricalOutlet.PrimalItemStructure_ElectricalOutlet'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/AC/PrimalItemStructure_AirConditionerPlus.PrimalItemStructure_AirConditionerPlus'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/MultiLamp/PrimalItemStructure_MultiLamp.PrimalItemStructure_MultiLamp'" 1 1 0
+
+Elevators
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/Elevators/Track/PrimalItemStructure_ElevatorTrack_Metal.PrimalItemStructure_ElevatorTrack_Metal'" 3 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/Elevators/Platforms/Small/PrimalItemStructure_ElevatorPlatform_Small.PrimalItemStructure_ElevatorPlatform_Small'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/Elevators/Platforms/Medium/PrimalItemStructure_ElevatorPlatform_Medium.PrimalItemStructure_ElevatorPlatform_Medium'" 1 1 0
+cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/Elevators/Platforms/Large/PrimalItemStructure_ElevatorPlatform_Large.PrimalItemStructure_ElevatorPlatform_Large'" 1 1 0

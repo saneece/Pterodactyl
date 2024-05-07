@@ -1,0 +1,67 @@
+```
+You are invited to The Kingdom!
+```
+The Kingdom is a 2 server cluster consisting of a PvE server on the Olympus map and a PvP server on The Valley map running Primal Fear. 
+
+*1/2 Speed Day time (Longer Days!)
+2x Speed Night time (who likes the dark anyway...)
+3x XP Multiplier
+10x Taming Speed
+0.01 Mating Interval **(Subject to change if abused)**
+0.75 Mating Multiplier **(Subject to change if abused)**
+1k stack size at **50%** Weight
+Automatic Engram Learning (Including Expansion Engrams)*
+Default Player Levels
+Max Wild Dino = 150
++100 level after Tame
+
+**Mods:**
+Dino Storage v2
+Structures+
+Platforms+
+Ark Steampunk **(On Olympus)**
+Awesome Spyglass
+Auto Run!!
+AND MORE....
+
+
+
+__**KingdomPFearOlympus - PvE**__
+
+http://kingdompfearolympus.arkers.io/
+66.235.173.31:8250
+Direct Connect: steam://connect/66.235.173.31:8250
+
+__PF Modlist:__
+Primal Fear Core
+Primal Fear Boss
+Primal Fear Aberration 
+Primal Fear Extinction 
+Primal Fear Scorched Earth
+
+__Olympus Full mod list:__ https://steamcommunity.com/sharedfiles/filedetails/?id=1827361291 *Don't forget to click "+Subscribe to all" at the top of the list before you start your game to pre-download!*
+
+
+
+__**KingdomPFearValley - PvP**__
+
+http://kingdompfearvalley.arkers.io/
+66.235.173.31:7080
+Direct Connect: steam://connect/66.235.173.31:7080
+
+__PF Modlist:__
+Primal Fear Core
+Primal Fear Boss
+Primal Fear Aberration
+Primal Fear Extinction
+Primal Fear Scorched Earth
+
+__Valley Full mod list:__ https://steamcommunity.com/sharedfiles/filedetails/?id=1829143177  *Don't forget to click "+Subscribe to all" at the top of the list before you start your game to pre-download!*
+
+
+
+__**Discord:**__
+
+https://discord.gg/KudDbZQ
+
+**Type __!survivor__ to gain access to the Ark channels!**

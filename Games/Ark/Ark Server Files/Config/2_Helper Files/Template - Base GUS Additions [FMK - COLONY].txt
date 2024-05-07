@@ -1,0 +1,17 @@
+[ColonyStacks]
+EnableItemInfoOverlay=True
+StackMod=2
+WeightMod=0.85
+StackMod_RawMutton=10
+WeightMod_RawMutton=0.85
+StackMod_RawPrimeFishMeat=10
+WeightMod_RawPrimeFishMeat=0.85
+StackMod_RawPrimeMeat=10
+WeightMod_RawPrimeMeat=0.85
+UnlockScorchedEarth=True
+UnlockAberration=True
+UnlockExtinction=True
+
+[SuperStructures]
+AllowIntakeToPlaceWithoutWater=true
+DisableDinoScan=True

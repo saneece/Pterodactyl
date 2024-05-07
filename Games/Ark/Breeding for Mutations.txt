@@ -1,0 +1,13 @@
+Make Base Pair by combining ALL (Health/Stam/Oxygen/Food/Weight/Melee/Speed) of the stats until you get a pair with the best of every dino
+
+Breed multiple Female Bases
+	Target first mutation in a Male (Choose one Melee/Health/Stam)
+		Note: If mutation is on a Female, breed back the Mutated Female with Base Male until you get a Mutated Male identical to the Mutated Female
+	Replace Base Male/Previous Mutated Male with NEW Mutated Male (Keep Base Male)
+	Repeat until 20/20 Mutations in Stat of choice on Patrilineal side
+
+Repeat entire process to get a Chain for each chosen Mutation stat (Usually Health, Stam and Melee)
+
+Combine Male of MStat 1 and Female of MStat 2 to get a Male child with 20/20 on both Maternal and Patrilineal side
+Combine Male Child with MStat 1 and 2 combined, with Female of MStat 3 until you get a Male and Female with all three mutated stats; New Base Pair
+Use NEW Base Pair to breed for color at this point if you want
