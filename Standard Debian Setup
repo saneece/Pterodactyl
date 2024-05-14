@@ -86,3 +86,28 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
 
 # Access Portainer
 https://IPADDRESS:9443
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+Move everything below the above line to a new file of it's own.
+
+Setup hypervisor
+	In this instance, we chose XCP-NG
+Configure Debian VM for docker to host main Apps
+	Do the Standard Debian Setup
+	Configure Docker
+		https://docs.docker.com/engine/install/debian/ (also see above)
+	Configure Portainer
+		https://docs.portainer.io/start/install-ce/server/docker/linux (also see above)
+	Configure NGINX
+		https://nginxproxymanager.com/guide/#hosting-your-home-network
+		https://www.youtube.com/watch?v=fCJbw75DCZw
+	Configure PiHole
+		https://pimylifeup.com/pi-hole-docker/
+
+Helpful Links
+
+https://www.yamllint.com/
+https://www.linuxserver.io/
+
+
