@@ -92,8 +92,8 @@ AlwaysNotifyPlayerJoined=true
 AlwaysNotifyPlayerLeft=true
 AdminLogging=false
 ClampItemSpoilingTimes=False
-ServerPassword=5Lixodo52
-ServerAdminPassword=6Lixodo52
+ServerPassword=ThereIsAPassword
+ServerAdminPassword=ThereIsAPassword2
 RCONEnabled=True
 RCONPort=27020
 PreventOfflinePvPInterval=900.000000
@@ -110,6 +110,7 @@ OverrideOfficialDifficulty=10.000000
 
 [SessionSettings]
 SessionName=KingdomGen2
+SessionName=Kingdom: Island
 
 [MessageOfTheDay]
 Message=Server reboots daily at 6 AM - Welcome to the Kingdom!
@@ -193,8 +194,6 @@ IBLQuality=1
 HeightFieldShadowQuality=3
 
 [/Game/PrimalEarth/CoreBlueprints/TestGameMode.TestGameMode_C]
-bGameplayLogEnabled=True
-bServerGameLogEnabled=True
 ConfigOverrideSupplyCrateItems=(SupplyCrateClassString="SupplyCrate_Cave_QualityTier1_EX",MinItemSets=0,MaxItemSets=1,NumItemSetsPower=0,bSetsRandomWithoutReplacement=True,ItemSets=((SetName="Carcha Saddle",ItemEntries=((ItemEntryName="Blueprints: Saddles",Items=(BlueprintGeneratedClass'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarchaSaddle.PrimalItemArmor_CarchaSaddle_C'),MinQuantity=1.000000,MinQuality=1.000000,bForceBlueprint=False,ChanceToBeBlueprintOverride=0.500000,ChanceToActuallyGiveItem=0.900000)),SetWeight=0.015000,bItemsRandomWithoutReplacement=True)),bAppendItemSets=True,bAppendPreventIncreasingMinMaxItemSets=False)
 ConfigOverrideSupplyCrateItems=(SupplyCrateClassString="SupplyCrate_Cave_QualityTier2_EX",MinItemSets=0,MaxItemSets=1,NumItemSetsPower=0,bSetsRandomWithoutReplacement=True,ItemSets=((SetName="Carcha Saddle",ItemEntries=((ItemEntryName="Blueprints: Saddles",Items=(BlueprintGeneratedClass'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarchaSaddle.PrimalItemArmor_CarchaSaddle_C'),MinQuantity=1.000000,MinQuality=1.000000,bForceBlueprint=False,ChanceToBeBlueprintOverride=0.500000,ChanceToActuallyGiveItem=0.900000)),SetWeight=0.015000,bItemsRandomWithoutReplacement=True)),bAppendItemSets=True,bAppendPreventIncreasingMinMaxItemSets=False)
 ConfigOverrideSupplyCrateItems=(SupplyCrateClassString="SupplyCrate_Cave_QualityTier3_EX",MinItemSets=0,MaxItemSets=1,NumItemSetsPower=0,bSetsRandomWithoutReplacement=True,ItemSets=((SetName="Carcha Saddle",ItemEntries=((ItemEntryName="Blueprints: Saddles",Items=(BlueprintGeneratedClass'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarchaSaddle.PrimalItemArmor_CarchaSaddle_C'),MinQuantity=1.000000,MinQuality=1.000000,bForceBlueprint=False,ChanceToBeBlueprintOverride=0.500000,ChanceToActuallyGiveItem=0.900000)),SetWeight=0.015000,bItemsRandomWithoutReplacement=True)),bAppendItemSets=True,bAppendPreventIncreasingMinMaxItemSets=False)
@@ -211,9 +210,6 @@ ConfigOverrideSupplyCrateItems=(SupplyCrateClassString="SupplyCrate_IceCaveTier3
 ConfigOverrideSupplyCrateItems=(SupplyCrateClassString="DinoDropInventoryComponent_LavaGolem_jackson",MinItemSets=0,MaxItemSets=1,NumItemSetsPower=0,bSetsRandomWithoutReplacement=True,ItemSets=((SetName="Carcha Saddle",ItemEntries=((ItemEntryName="Blueprints: Saddles",Items=(BlueprintGeneratedClass'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarchaSaddle.PrimalItemArmor_CarchaSaddle_C'),MinQuantity=1.000000,MinQuality=3.000000,MaxQuality=7.000000,bForceBlueprint=False,ChanceToBeBlueprintOverride=0.500000,ChanceToActuallyGiveItem=0.300000)),SetWeight=0.022000,bItemsRandomWithoutReplacement=True)),bAppendItemSets=True,bAppendPreventIncreasingMinMaxItemSets=False)
 ConfigOverrideSupplyCrateItems=(SupplyCrateClassString="PrimalInventoryBP_GenericFishing",MinItemSets=0,MaxItemSets=1,NumItemSetsPower=0,bSetsRandomWithoutReplacement=True,ItemSets=((SetName="Carcha Saddle",ItemEntries=((ItemEntryName="Blueprints: Saddles",Items=(BlueprintGeneratedClass'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarchaSaddle.PrimalItemArmor_CarchaSaddle_C'),MinQuantity=1.000000,MinQuality=1.000000,ChanceToBeBlueprintOverride=0.500000,ChanceToActuallyGiveItem=0.400000,RequiresMinQuality=3.000000)),SetWeight=0.001500,bItemsRandomWithoutReplacement=True)),bAppendItemSets=True,bAppendPreventIncreasingMinMaxItemSets=False)
 ConfigOverrideSupplyCrateItems=(SupplyCrateClassString="SupplyCrate_IceCaveTier3",MinItemSets=0,MaxItemSets=1,NumItemSetsPower=0,bSetsRandomWithoutReplacement=True,ItemSets=((SetName="Carcha Saddle",ItemEntries=((ItemEntryName="Blueprints: Saddles",Items=(BlueprintGeneratedClass'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarchaSaddle.PrimalItemArmor_CarchaSaddle_C'),MinQuantity=1.000000,MinQuality=1.000000,MaxQuality=1.200000,bForceBlueprint=False,ChanceToBeBlueprintOverride=0.500000,ChanceToActuallyGiveItem=0.900000)),SetWeight=0.023000,bItemsRandomWithoutReplacement=True)),bAppendItemSets=True,bAppendPreventIncreasingMinMaxItemSets=False)
-
-[SessionSettings]
-SessionName=Kingdom: Island
 
 [/Script/Engine.GameSession]
 MaxPlayers=12
