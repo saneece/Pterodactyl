@@ -14,10 +14,10 @@
   8. Set the "Server Map" (including if is a MOD map)
   9. Set the "Server Name" to "Kingdom: MAP_NAME"
   10. Add mods from Games/Ark/Ark Server Files/2_GameUserSettings INI/Mods/DefaultMods.txt and add any additional
-    a. If it's a MOD map, make sure it's loaded first. 
+    - If it's a MOD map, make sure it's loaded first. 
   11. Set Port Foward in Firewall to forward to the query port (27015), the game port (27016) and add to steam favorites with publicIP:27016
-    a. Don't port forward 27020 (RCON)
-    b. Once the server is setup, make sure that 27016
+    - Don't port forward 27020 (RCON)
+    - Once the server is setup, make sure that 27016
 
 ### Edit Game Files to tweak settings, configure mods and add player white list
 
