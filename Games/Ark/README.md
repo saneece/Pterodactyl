@@ -17,7 +17,7 @@
       - If it's a MOD map, make sure it's loaded first. 
   12. Set Port Foward in Firewall to forward to the query port (27015), the game port (27016) and add to steam favorites with publicIP:27016
       - Don't port forward 27020 (RCON)
-      - Once the server is setup, make sure that 27016
+      - Once the server is setup, make sure that 27016 is set as the primary network on the "Network" tab of the server
 
 ### Edit Game Files to tweak settings, configure mods and add player white list
 
