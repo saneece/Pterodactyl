@@ -31,7 +31,7 @@
 
 ### Files > ShooterGame/Binaries/Linux
 
-  1. Upload "PlayersJoinNoCheckList.txt" from "GitHub > Games/Ark/Ark Server Files/PlayersJoinNoCheckList.txt" to 
+  1. Upload "PlayersJoinNoCheckList.txt" from "GitHub > Games/Ark/Ark Server Files/PlayersJoinNoCheckList.txt" to "/home/container/ShooterGame/Binaries/Linux"
 
 ## Configure the server in Ptero
 
