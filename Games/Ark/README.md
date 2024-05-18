@@ -5,7 +5,7 @@
 ### Admin Panel in Ptero: https://ptero.nevanstech.com/admin
 
   1. Create server with Egg (if needed to download, follow https://github.com/saneece/Pterodactyl)
-  2. Allocate Game Port, Query Port and RCON Port during setup
+  2. Allocate Game Port (27016) and add 2 more ports. 1 is Query Port (27015) and the other is the RCON Port (27020) during setup
   3. Uncheck "Start Server when Installed"
   4. Set the "Backup Limit" to "2"
   5. Set the "Memory" and "Disk Space"
@@ -15,7 +15,9 @@
   9. Set the "Server Name" to "Kingdom: MAP_NAME"
   10. Add mods from Games/Ark/Ark Server Files/2_GameUserSettings INI/Mods/DefaultMods.txt and add any additional
     a. If it's a MOD map, make sure it's loaded first. 
-  11. Set Port Foward in Firewall to forward to the query port (27015) and add to steam favorites with publicIP:27015
+  11. Set Port Foward in Firewall to forward to the query port (27015), the game port (27016) and add to steam favorites with publicIP:27016
+    a. Don't port forward 27020 (RCON)
+    b. Once the server is setup, make sure that 27016
 
 ### Edit Game Files to tweak settings, configure mods and add player white list
 
@@ -25,6 +27,7 @@
   4. Copy contents from "Games/Ark/Ark Server Files/1_Game INI/DefaultGameINI.txt" and paste into "/home/container/ShooterGame/Saved/Config/LinuxServer/Game.ini" on the server
   5. Copy contents from "Games/Ark/Ark Server Files/2_GameUserSettings INI/DefaultGameUserSettingsINI.txt" and paste into "/home/container/ShooterGame/Saved/Config/LinuxServer/GameUserSettings.ini" on the server
      - Add Mods settings to GameUserSettings.ini from Games/Ark/Ark Server Files/2_GameUserSettings INI/Mods/
+     - Make sure to update the "[SessionSettings]" after the first reboot
 
 ### Files > ShooterGame/Binaries/Linux
 
