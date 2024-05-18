@@ -6,8 +6,16 @@
 
   1. Create server with Egg (if needed to download, follow https://github.com/saneece/Pterodactyl)
   2. Allocate Game Port, Query Port and RCON Port during setup
-  3. Set Port Foward in Firewall to forward to the query port (27015) and add to steam favorites with publicIP:27015
-  4. Go to Build COnfiguration tab and set Backup Limit to 2 on the server after it's created
+  3. Uncheck "Start Server when Installed"
+  4. Set the "Backup Limit" to "2"
+  5. Set the "Memory" and "Disk Space"
+  6. Choose the "Nest" and the "Egg"
+  7. Set the "Server Password" and the "Admin Password"
+  8. Set the "Server Map" (including if is a MOD map)
+  9. Set the "Server Name"
+  10. Add mods from Games/Ark/Ark Server Files/2_GameUserSettings INI/Mods/DefaultMods.txt and add any additional
+    a. If it's a MOD map, make sure it's loaded first. 
+  11. Set Port Foward in Firewall to forward to the query port (27015) and add to steam favorites with publicIP:27015
 
 ## Configure the server in Ptero
 
