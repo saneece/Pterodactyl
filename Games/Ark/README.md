@@ -63,8 +63,8 @@
 
 ### Files > ShooterGame\Saved\Config\LinuxServer\
 
-  1. Add Game.ini from Games/Ark/Ark Server Files/1_Game INI/DefaultGameINI.txt
-  2. Add GameUserSettings.ini from Games/Ark/Ark Server Files/2_GameUserSettings INI/DefaultGameUserSettingsINI.txt
+  1. Copy contents from Games/Ark/Ark Server Files/1_Game INI/DefaultGameINI.txt and paste into /home/container/ShooterGame/Saved/Config/LinuxServer/Game.ini on the server
+  2. Copy contents from Games/Ark/Ark Server Files/2_GameUserSettings INI/DefaultGameUserSettingsINI.txt and paste into /home/container/ShooterGame/Saved/Config/LinuxServer/GameUserSettings.ini on the server
      - Add Mods settings to GameUserSettings.ini from Games/Ark/Ark Server Files/2_GameUserSettings INI/Mods/
 
 ### Files > ShooterGame/Binaries/Linux
