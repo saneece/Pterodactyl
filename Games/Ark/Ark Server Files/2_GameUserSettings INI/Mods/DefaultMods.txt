@@ -13,6 +13,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=756389708 - Builder's Hel
 https://steamcommunity.com/sharedfiles/filedetails/?id=731604991 - Structure's Plus
 https://steamcommunity.com/sharedfiles/filedetails/?id=1967741708 - Lethals Reusables
 https://steamcommunity.com/sharedfiles/filedetails/?id=750483861 - Dino Aid
+https://steamcommunity.com/sharedfiles/filedetails/?id=1609138312 - Dino Storage v2
+https://steamcommunity.com/sharedfiles/filedetails/?id=1896198862 - Remove Cryopods
 
-
-1837445660,1404697612,1428596566,801082391,756389708,731604991,1967741708,750483861
+1837445660,1404697612,1428596566,801082391,756389708,731604991,1967741708,750483861,1609138312,1896198862
