@@ -1,22 +1,11 @@
 Copy the below files:
 
-/home/container/Pal/Binaries/Linux/PalServer-Linux-Shipping
-
-& 
-
-/home/container/Pal/Binaries/Linux/PalServer-Linux-Shipping.sym
-
+"/home/container/Pal/Binaries/Linux/PalServer-Linux-Shipping"    &     "/home/container/Pal/Binaries/Linux/PalServer-Linux-Shipping.sym"
 
 
 Rename them to:
 
-
-PalServer-Linux-Test
-
-&
-
-PalServer-Linux-Test.sym
-
+"PalServer-Linux-Test"    &    "PalServer-Linux-Test.sym"
 
 Set permissions on both to 755
 
@@ -27,6 +16,6 @@ Restore saves:
 
 Download all files in the path:
 
-/home/container/Pal/Saved/SaveGames/0/RANDOM NUMBERS AND LETTERS/
+"/home/container/Pal/Saved/SaveGames/0/RANDOM NUMBERS AND LETTERS/"
 
 upload to new server in the same path but the "RANDOM NUMEBRS AND LETTERS" folder will be a different sequence. Use that folder.
