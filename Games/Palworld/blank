@@ -1,1 +1,21 @@
+Copy the below files:
 
+/home/container/Pal/Binaries/Linux/PalServer-Linux-Shipping
+
+& 
+
+/home/container/Pal/Binaries/Linux/PalServer-Linux-Shipping.sym
+
+
+
+Rename them to:
+
+
+PalServer-Linux-Test
+
+&
+
+PalServer-Linux-Test.sym
+
+
+Set permissions on both to 755
