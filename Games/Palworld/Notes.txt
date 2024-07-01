@@ -19,3 +19,10 @@ Download all files in the path:
 "/home/container/Pal/Saved/SaveGames/0/RANDOM NUMBERS AND LETTERS/"
 
 upload to new server in the same path but the "RANDOM NUMEBRS AND LETTERS" folder will be a different sequence. Use that folder.
+
+
+
+
+Edit serer settings:
+
+/home/container/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
