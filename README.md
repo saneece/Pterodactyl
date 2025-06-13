@@ -76,15 +76,16 @@ Notes for beginners to Linux:
 ## Import an "unsupported" game (egg):
 
 1. Go to [this link](https://github.com/parkervcp/eggs/tree/master/game_eggs) and find the game you want.
-2. Download the .json file.
-3. In your panel, go to Admin settings (top right) > Nests (bottom on the left side menu).
-4. Click "Create New" > Name it the same as the game > Save.
-5. Click on "Nests" in the left-hand menu again.
-6. Click "Import Egg" in the top right (green button).
-7. Click "Choose File" and select the .json file.
-8. Click the dropdown under "Associated Nest" and select the Nest you created in step 4.
-9. Click "Import".
-10. Now go to Servers in the left-hand menu.
-11. Click "Create New".
-12. Select your Nest under the "Nest Configuration" and fill out the rest of the data.
-13. Click "Create Server" at the bottom. If you missed anything required, it will tell you and not let you create the server.
+2.    (https://github.com/pelican-eggs/games-standalone) 
+3. Download the .json file.
+4. In your panel, go to Admin settings (top right) > Nests (bottom on the left side menu).
+5. Click "Create New" > Name it the same as the game > Save.
+6. Click on "Nests" in the left-hand menu again.
+7. Click "Import Egg" in the top right (green button).
+8. Click "Choose File" and select the .json file.
+9. Click the dropdown under "Associated Nest" and select the Nest you created in step 4.
+10. Click "Import".
+11. Now go to Servers in the left-hand menu.
+12. Click "Create New".
+13. Select your Nest under the "Nest Configuration" and fill out the rest of the data.
+14. Click "Create Server" at the bottom. If you missed anything required, it will tell you and not let you create the server.
