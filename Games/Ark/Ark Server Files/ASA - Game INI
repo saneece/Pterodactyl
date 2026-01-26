@@ -114,14 +114,20 @@ PreventOfflinePvPConnectionInvincibleInterval=5
 MinimumTimeBetweenInventoryRetrieval=120
 HairGrowthSpeedMultiplier=1
 
+#Hide Vanilla Engrams
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SpyGlass_C",EngramHidden=true,RemoveEngramPreReq=false)
+
+#Hide Vanilla with Sprinkles Engrams
 OverrideNamedEngramEntries=(EngramClassName="EngramRepairStation_C",EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramPickupGun_C",EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramVariantGun_C",EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramDinoGun_C",EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramCraftingPotion_C",EngramHidden=true)
 
+#Hide Super Spyglass Plus Engrams and override engram point and level requirement on the actual SSP engram
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SuperSpyglassPlus_Consumable_C",EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SSP_SpyglassSkin_C",EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SuperSpyglassPlus_C",EngramHidden=false,EngramPointsCost=2,EngramLevelRequirement=7,RemoveEngramPreReq=true)
 
+#Override the cost on the actual SSP Engram to match the vanilla Spyglass
 ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemWeapon_SuperSpyglassPlus_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemResource_Crystal_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),(ResourceItemTypeString="PrimalItemResource_Fiber_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false)))
