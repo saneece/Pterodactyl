@@ -1,0 +1,142 @@
+;METADATA=(Diff=true, UseCommands=true)
+[/Script/ShooterGame.ShooterGameMode]
+AlphaKillXPMultiplier=1
+BossKillXPMultiplier=1
+CaveKillXPMultiplier=1
+ExplorerNoteXPMultiplier=1
+GenericXPMultiplier=1
+HarvestXPMultiplier=1
+KillXPMultiplier=1
+SpecialXPMultiplier=1
+TamedKillXPMultiplier=1
+UnclaimedKillXPMultiplier=1
+WildKillXPMultiplier=1
+CraftXPMultiplier=1.5
+CraftingSkillBonusMultiplier=1
+CustomRecipeSkillMultiplier=1
+CustomRecipeEffectivenessMultiplier=1
+BabyCuddleGracePeriodMultiplier=3
+BabyCuddleIntervalMultiplier=0.10
+BabyCuddleLoseImprintQualitySpeedMultiplier=1
+BabyFoodConsumptionSpeedMultiplier=1
+BabyImprintAmountMultiplier=2
+BabyImprintingStatScaleMultiplier=2
+BabyMatureSpeedMultiplier=250
+EggHatchSpeedMultiplier=10
+MatingIntervalMultiplier=0.010
+MatingSpeedMultiplier=0.75
+LayEggIntervalMultiplier=1
+TamingSpeedMultiplier=12
+DinoCharacterFoodDrainMultiplier=0.25
+PassiveTameIntervalMultiplier=1
+DinoHarvestingDamageMultiplier=1
+DinoTurretDamageMultiplier=1
+PlayerHarvestingDamageMultiplier=1
+TamedDinoCharacterFoodDrainMultiplier=1
+TamedDinoTorporDrainMultiplier=1
+WildDinoCharacterFoodDrainMultiplier=1
+WildDinoTorporDrainMultiplier=.75
+OverrideMaxExperiencePointsPlayer=1250000
+OverrideMaxExperiencePointsDino=2525010
+PerLevelStatsMultiplier_Player[0]=1.5
+PerLevelStatsMultiplier_Player[1]=2
+PerLevelStatsMultiplier_Player[2]=2
+PerLevelStatsMultiplier_Player[3]=2
+PerLevelStatsMultiplier_Player[4]=2
+PerLevelStatsMultiplier_Player[5]=1
+PerLevelStatsMultiplier_Player[6]=2
+PerLevelStatsMultiplier_Player[7]=2
+PerLevelStatsMultiplier_Player[8]=1
+PerLevelStatsMultiplier_Player[9]=1
+PerLevelStatsMultiplier_Player[10]=2
+PerLevelStatsMultiplier_Player[11]=1
+PerLevelStatsMultiplier_DinoWild[0]=1
+PerLevelStatsMultiplier_DinoWild[1]=1
+PerLevelStatsMultiplier_DinoWild[2]=1
+PerLevelStatsMultiplier_DinoWild[3]=1
+PerLevelStatsMultiplier_DinoWild[4]=1
+PerLevelStatsMultiplier_DinoWild[5]=1
+PerLevelStatsMultiplier_DinoWild[6]=1
+PerLevelStatsMultiplier_DinoWild[7]=1
+PerLevelStatsMultiplier_DinoWild[8]=1
+PerLevelStatsMultiplier_DinoWild[9]=1
+PerLevelStatsMultiplier_DinoWild[10]=1
+PerLevelStatsMultiplier_DinoWild[11]=1
+PerLevelStatsMultiplier_DinoTamed[0]=0.4
+PerLevelStatsMultiplier_DinoTamed[1]=1
+PerLevelStatsMultiplier_DinoTamed[2]=1
+PerLevelStatsMultiplier_DinoTamed[3]=1
+PerLevelStatsMultiplier_DinoTamed[4]=1
+PerLevelStatsMultiplier_DinoTamed[5]=1
+PerLevelStatsMultiplier_DinoTamed[6]=1
+PerLevelStatsMultiplier_DinoTamed[7]=1
+PerLevelStatsMultiplier_DinoTamed[8]=0.4
+PerLevelStatsMultiplier_DinoTamed[9]=1
+PerLevelStatsMultiplier_DinoTamed[10]=1
+PerLevelStatsMultiplier_DinoTamed[11]=1
+PerLevelStatsMultiplier_DinoTamed_Add[1]=1
+PerLevelStatsMultiplier_DinoTamed_Add[7]=1
+PerLevelStatsMultiplier_DinoTamed_Affinity[7]=1
+PlayerBaseStatMultipliers[0]=1
+PlayerBaseStatMultipliers[3]=1
+PlayerBaseStatMultipliers[4]=1
+PlayerBaseStatMultipliers[5]=1
+PlayerBaseStatMultipliers[7]=1
+FishingLootQualityMultiplier=1
+SupplyCrateLootQualityMultiplier=3
+GlobalSpoilingTimeMultiplier=1
+GlobalItemDecompositionTimeMultiplier=1
+GlobalCorpseDecompositionTimeMultiplier=1
+UseCorpseLifeSpanMultiplier=1
+FastDecayInterval=43200
+StructureDamageRepairCooldown=180
+LimitGeneratorsNum=1
+LimitTurretsNum=100
+LimitTurretsRange=10000
+bLimitTurretsInRange=true
+bHardLimitTurretsInRange=true
+ResourceNoReplenishRadiusStructures=1
+ResourceNoReplenishRadiusPlayers=1
+bAllowCustomRecipes=true
+bAllowFlyerSpeedLeveling=true
+bAllowSpeedLeveling=true
+bAllowUnlimitedRespecs=true
+bAllowPlatformSaddleMultiFloors=true
+bDisableStructurePlacementCollision=true
+bDisableDinoDecayClaiming=false
+bPassiveDefensesDamageRiderlessDinos=false
+bShowCreativeMode=false
+MaxFallSpeedMultiplier=1
+MaxTribeLogs=500
+MaxAlliancesPerTribe=10
+MaxTribesPerAlliance=5
+PreventOfflinePvPConnectionInvincibleInterval=5
+MinimumTimeBetweenInventoryRetrieval=120
+HairGrowthSpeedMultiplier=1
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_RepairStation_C",EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_PickupGun_C",EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_VariantGun_C",EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DinoGun_C",EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_CraftingPotion_C",EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SuperSpyglassPlus_Consumable_C",EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SSP_SpyglassSkin_C",EngramHidden=true)
+
+OverrideNamedEngramEntries=(
+    EngramClassName="EngramEntry_SuperSpyglassPlus_C",
+    EngramHidden=false,
+    EngramPointsCost=2,
+    EngramLevelRequirement=7,
+    RemoveEngramPreReq=false
+)
+
+ConfigOverrideItemCraftingCosts=(
+    ItemClassString="PrimalItemWeapon_SuperSpyglassPlus_C",
+    BaseCraftingResourceRequirements=(
+        (ResourceItemTypeString="PrimalItemResource_Crystal_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+        (ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
+        (ResourceItemTypeString="PrimalItemResource_Fiber_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
+        (ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false)
+    )
+)
