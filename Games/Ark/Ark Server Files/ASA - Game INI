@@ -114,29 +114,14 @@ PreventOfflinePvPConnectionInvincibleInterval=5
 MinimumTimeBetweenInventoryRetrieval=120
 HairGrowthSpeedMultiplier=1
 
-OverrideNamedEngramEntries=(EngramClassName="EngramEntry_RepairStation_C",EngramHidden=true)
-OverrideNamedEngramEntries=(EngramClassName="EngramEntry_PickupGun_C",EngramHidden=true)
-OverrideNamedEngramEntries=(EngramClassName="EngramEntry_VariantGun_C",EngramHidden=true)
-OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DinoGun_C",EngramHidden=true)
-OverrideNamedEngramEntries=(EngramClassName="EngramEntry_CraftingPotion_C",EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramRepairStation_C",EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramPickupGun_C",EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramVariantGun_C",EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramDinoGun_C",EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramCraftingPotion_C",EngramHidden=true)
 
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SuperSpyglassPlus_Consumable_C",EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SSP_SpyglassSkin_C",EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SuperSpyglassPlus_C",EngramHidden=false,EngramPointsCost=2,EngramLevelRequirement=7,RemoveEngramPreReq=true)
 
-OverrideNamedEngramEntries=(
-    EngramClassName="EngramEntry_SuperSpyglassPlus_C",
-    EngramHidden=false,
-    EngramPointsCost=2,
-    EngramLevelRequirement=7,
-    RemoveEngramPreReq=false
-)
-
-ConfigOverrideItemCraftingCosts=(
-    ItemClassString="PrimalItemWeapon_SuperSpyglassPlus_C",
-    BaseCraftingResourceRequirements=(
-        (ResourceItemTypeString="PrimalItemResource_Crystal_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
-        (ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
-        (ResourceItemTypeString="PrimalItemResource_Fiber_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
-        (ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false)
-    )
-)
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemWeapon_SuperSpyglassPlus_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemResource_Crystal_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),(ResourceItemTypeString="PrimalItemResource_Fiber_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false)))
