@@ -1,6 +1,5 @@
 ;METADATA=(Diff=true, UseCommands=true)
 [/Script/ShooterGame.ShooterGameMode]
-AllowFlyerCarryPvE=True
 AlphaKillXPMultiplier=1
 BossKillXPMultiplier=1
 CaveKillXPMultiplier=1
