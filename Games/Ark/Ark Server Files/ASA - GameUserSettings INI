@@ -1,13 +1,13 @@
 ;METADATA=(Diff=true, UseCommands=true)
 [ServerSettings]
-AllowFlyerCarryPvE=True
 DifficultyOffset=1.0
 OverrideOfficialDifficulty=5.0
+AllowFlyerCarryPvE=True
 bUseSingleplayerSettings=false
 bAutoUnlockAllEngrams=false
 bPvEAllowTribeWar=true
-bPvEDisableFriendlyFire=true
-bDisableFriendlyFire=true
+bPvEDisableFriendlyFire=false
+bDisableFriendlyFire=false
 bPvEAllowTribeWarCancel=false
 bIncreasePvPRespawnInterval=false
 IncreasePvPRespawnIntervalCheckPeriod=30
@@ -20,7 +20,7 @@ ServerCrosshair=True
 ServerPassword=KingdomIsland
 ServerAdminPassword=KingdomIslandAdmin
 RCONEnabled=True
-RCONPort=*
+RCONPort=50112
 TheMaxStructuresInRange=10500
 StartTimeHour=-1
 ShowFloatingDamageText=true
