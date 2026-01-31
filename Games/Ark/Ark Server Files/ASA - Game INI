@@ -17,7 +17,7 @@ CraftingSkillBonusMultiplier=1
 CustomRecipeSkillMultiplier=1
 CustomRecipeEffectivenessMultiplier=1
 BabyCuddleGracePeriodMultiplier=5
-BabyCuddleIntervalMultiplier=0.035
+BabyCuddleIntervalMultiplier=0.010
 BabyCuddleLoseImprintQualitySpeedMultiplier=1
 BabyFoodConsumptionSpeedMultiplier=1
 BabyImprintAmountMultiplier=50
@@ -124,3 +124,4 @@ OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SuperSpyglassPlus_Consu
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SSP_SpyglassSkin_C",EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SuperSpyglassPlus_C",EngramHidden=false,EngramPointsCost=2,EngramLevelRequirement=7,RemoveEngramPreReq=true)
 ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemWeapon_SuperSpyglassPlus_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemResource_Crystal_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),(ResourceItemTypeString="PrimalItemResource_Fiber_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false)))
+
