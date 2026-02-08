@@ -1,11 +1,11 @@
 ;METADATA=(Diff=true, UseCommands=true)
 [/Script/ShooterGame.ShooterGameMode]
-AllowFlyerCarryPvE=True
+AllowFlyerCarryPvE=true
 AlphaKillXPMultiplier=1
 BossKillXPMultiplier=1
 CaveKillXPMultiplier=1
 ExplorerNoteXPMultiplier=1
-GenericXPMultiplier=1
+GenericXPMultiplier=1.5
 HarvestXPMultiplier=1
 KillXPMultiplier=1
 SpecialXPMultiplier=1
@@ -85,13 +85,13 @@ PlayerBaseStatMultipliers[5]=1
 PlayerBaseStatMultipliers[7]=1
 FishingLootQualityMultiplier=1
 SupplyCrateLootQualityMultiplier=3
-GlobalSpoilingTimeMultiplier=1
+GlobalSpoilingTimeMultiplier=.75
 GlobalItemDecompositionTimeMultiplier=1
 GlobalCorpseDecompositionTimeMultiplier=1
 UseCorpseLifeSpanMultiplier=1
 FastDecayInterval=43200
 StructureDamageRepairCooldown=180
-LimitGeneratorsNum=1
+LimitGeneratorsNum=0
 LimitTurretsNum=100
 LimitTurretsRange=10000
 bLimitTurretsInRange=true
