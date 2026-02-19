@@ -1,7 +1,6 @@
 ;METADATA=(Diff=true, UseCommands=true)
 [ServerSettings]
 DifficultyOffset=1.0
-OverrideStructurePlatformPrevention=True
 DisableCryopodEnemyCheck=True
 AllowCryoFridgeOnSaddle=True
 DisableCryopodFridgeRequirement=True
@@ -31,7 +30,6 @@ ShowFloatingDamageText=true
 OxygenSwimSpeedStatMultiplier=1
 StructurePreventResourceRadiusMultiplier=1
 TribeNameChangeCooldown=15
-PlatformSaddleBuildAreaBoundsMultiplier=1
 AlwaysAllowStructurePickup=true
 StructurePickupTimeAfterPlacement=30
 StructurePickupHoldDuration=0.5
@@ -39,7 +37,9 @@ AllowHideDamageSourceFromLogs=true
 RaidDinoCharacterFoodDrainMultiplier=1
 PvEDinoDecayPeriodMultiplier=1
 KickIdlePlayersPeriod=3600
-PerPlatformMaxStructuresMultiplier=1
+OverrideStructurePlatformPrevention=True
+PlatformSaddleBuildAreaBoundsMultiplier=2
+PerPlatformMaxStructuresMultiplier=2
 AutoSavePeriodMinutes=15
 MaxTamedDinos=5000
 MaxTamedDinos_SoftTameLimit=5000
