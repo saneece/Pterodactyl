@@ -1,6 +1,7 @@
 ;METADATA=(Diff=true, UseCommands=true)
 [ServerSettings]
 DifficultyOffset=1.0
+OverrideStructurePlatformPrevention=True
 DisableCryopodEnemyCheck=True
 AllowCryoFridgeOnSaddle=True
 DisableCryopodFridgeRequirement=True
@@ -30,6 +31,7 @@ ShowFloatingDamageText=true
 OxygenSwimSpeedStatMultiplier=1
 StructurePreventResourceRadiusMultiplier=1
 TribeNameChangeCooldown=15
+PlatformSaddleBuildAreaBoundsMultiplier=2
 AlwaysAllowStructurePickup=true
 StructurePickupTimeAfterPlacement=30
 StructurePickupHoldDuration=0.5
@@ -37,8 +39,6 @@ AllowHideDamageSourceFromLogs=true
 RaidDinoCharacterFoodDrainMultiplier=1
 PvEDinoDecayPeriodMultiplier=1
 KickIdlePlayersPeriod=3600
-OverrideStructurePlatformPrevention=True
-PlatformSaddleBuildAreaBoundsMultiplier=2
 PerPlatformMaxStructuresMultiplier=2
 AutoSavePeriodMinutes=15
 MaxTamedDinos=5000
@@ -64,6 +64,7 @@ CryoHospitalMatingCooldownReduction=2
 BloodforgeReinforceExtraDurability=0.300000012
 BloodforgeReinforceResourceCostMultiplier=3
 BloodforgeReinforceSpeedMultiplier=0.100000001
+OutpostSigilRewardMultiplier=1
 
 [ScalabilityGroups]
 sg.ResolutionQuality=0
@@ -364,6 +365,9 @@ LastGPUBenchmarkResult=-1.000000
 LastGPUBenchmarkMultiplier=1.000000
 bUseHDRDisplayOutput=False
 HDRDisplayOutputNits=1000
+bTextChatBubbles=True
+bReceiveDiscordNotifications=True
+bReceiveDiscordFriendRequests=False
 
 [/Script/Engine.GameUserSettings]
 bUseDesiredScreenHeight=False
@@ -408,7 +412,7 @@ DinoGunKillGivesXp=True
 DinoGunKillSharesXp=True
 DinoGunKillXpMultiplier=1
 PullWeightMaximum=0
-StackWeightPreset=0
+StackWeightPreset=1
 StackSizePreset=0
 EngramPointBuffer=0
 
