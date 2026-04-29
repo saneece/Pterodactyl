@@ -1,17 +1,17 @@
 ;METADATA=(Diff=true, UseCommands=true)
 [/Script/ShooterGame.ShooterGameMode]
 AllowFlyerCarryPvE=true
-AlphaKillXPMultiplier=1
-BossKillXPMultiplier=1
-CaveKillXPMultiplier=1
 ExplorerNoteXPMultiplier=1
 GenericXPMultiplier=1.5
-HarvestXPMultiplier=1
-KillXPMultiplier=1
-SpecialXPMultiplier=1
+AlphaKillXPMultiplier=1.5
+BossKillXPMultiplier=1
+CaveKillXPMultiplier=2
+KillXPMultiplier=1.25
+WildKillXPMultiplier=1.25
 TamedKillXPMultiplier=1
 UnclaimedKillXPMultiplier=1
-WildKillXPMultiplier=1
+HarvestXPMultiplier=1
+SpecialXPMultiplier=1
 CraftXPMultiplier=1.5
 CraftingSkillBonusMultiplier=1
 CustomRecipeSkillMultiplier=1
@@ -24,21 +24,20 @@ BabyImprintAmountMultiplier=50
 BabyImprintingStatScaleMultiplier=2
 BabyMatureSpeedMultiplier=250
 EggHatchSpeedMultiplier=12
+BabyGestationSpeedMultiplier=12
 MatingIntervalMultiplier=0.007
 MatingSpeedMultiplier=0.75
 LayEggIntervalMultiplier=1
 TamingSpeedMultiplier=12
 DinoCharacterFoodDrainMultiplier=0.25
 PassiveTameIntervalMultiplier=1
-DinoHarvestingDamageMultiplier=1
+DinoHarvestingDamageMultiplier=5
 DinoTurretDamageMultiplier=1
-PlayerHarvestingDamageMultiplier=1
+PlayerHarvestingDamageMultiplier=5
 TamedDinoCharacterFoodDrainMultiplier=1
 TamedDinoTorporDrainMultiplier=1
 WildDinoCharacterFoodDrainMultiplier=1
 WildDinoTorporDrainMultiplier=.75
-## OverrideMaxExperiencePointsPlayer=1250000
-## OverrideMaxExperiencePointsDino=2525010
 PerLevelStatsMultiplier_Player[0]=1.5
 PerLevelStatsMultiplier_Player[1]=2
 PerLevelStatsMultiplier_Player[2]=2
@@ -114,13 +113,12 @@ MaxTribesPerAlliance=5
 PreventOfflinePvPConnectionInvincibleInterval=5
 MinimumTimeBetweenInventoryRetrieval=120
 HairGrowthSpeedMultiplier=1
-LevelExperienceRampOverrides=(ExperiencePointsForLevel[0]=0,ExperiencePointsForLevel[1]=5,ExperiencePointsForLevel[2]=20,ExperiencePointsForLevel[3]=40,ExperiencePointsForLevel[4]=70,ExperiencePointsForLevel[5]=120,ExperiencePointsForLevel[6]=190,ExperiencePointsForLevel[7]=270,ExperiencePointsForLevel[8]=360,ExperiencePointsForLevel[9]=450,ExperiencePointsForLevel[10]=550,ExperiencePointsForLevel[11]=660,ExperiencePointsForLevel[12]=780,ExperiencePointsForLevel[13]=910,ExperiencePointsForLevel[14]=1050,ExperiencePointsForLevel[15]=1200,ExperiencePointsForLevel[16]=1360,ExperiencePointsForLevel[17]=1530,ExperiencePointsForLevel[18]=1710,ExperiencePointsForLevel[19]=1900,ExperiencePointsForLevel[20]=2100,ExperiencePointsForLevel[21]=2310,ExperiencePointsForLevel[22]=2530,ExperiencePointsForLevel[23]=2760,ExperiencePointsForLevel[24]=3000,ExperiencePointsForLevel[25]=3250,ExperiencePointsForLevel[26]=3510,ExperiencePointsForLevel[27]=3780,ExperiencePointsForLevel[28]=4060,ExperiencePointsForLevel[29]=4350,ExperiencePointsForLevel[30]=4650,ExperiencePointsForLevel[31]=4960,ExperiencePointsForLevel[32]=5280,ExperiencePointsForLevel[33]=5610,ExperiencePointsForLevel[34]=5950,ExperiencePointsForLevel[35]=6300,ExperiencePointsForLevel[36]=6660,ExperiencePointsForLevel[37]=7030,ExperiencePointsForLevel[38]=7410,ExperiencePointsForLevel[39]=7800,ExperiencePointsForLevel[40]=8200,ExperiencePointsForLevel[41]=8610,ExperiencePointsForLevel[42]=9030,ExperiencePointsForLevel[43]=9460,ExperiencePointsForLevel[44]=9900,ExperiencePointsForLevel[45]=10350,ExperiencePointsForLevel[46]=10810,ExperiencePointsForLevel[47]=11280,ExperiencePointsForLevel[48]=11760,ExperiencePointsForLevel[49]=12250,ExperiencePointsForLevel[50]=12750,ExperiencePointsForLevel[51]=13260,ExperiencePointsForLevel[52]=13780,ExperiencePointsForLevel[53]=14310,ExperiencePointsForLevel[54]=14850,ExperiencePointsForLevel[55]=15400,ExperiencePointsForLevel[56]=15960,ExperiencePointsForLevel[57]=16530,ExperiencePointsForLevel[58]=17110,ExperiencePointsForLevel[59]=17700,ExperiencePointsForLevel[60]=18850,ExperiencePointsForLevel[61]=21078,ExperiencePointsForLevel[62]=22448,ExperiencePointsForLevel[63]=23908,ExperiencePointsForLevel[64]=25462,ExperiencePointsForLevel[65]=27499,ExperiencePointsForLevel[66]=30249,ExperiencePointsForLevel[67]=34786,ExperiencePointsForLevel[68]=40004,ExperiencePointsForLevel[69]=46805,ExperiencePointsForLevel[70]=53986,ExperiencePointsForLevel[71]=62186,ExperiencePointsForLevel[72]=71638,ExperiencePointsForLevel[73]=82491,ExperiencePointsForLevel[74]=94851,ExperiencePointsForLevel[75]=103674,ExperiencePointsForLevel[76]=114243,ExperiencePointsForLevel[77]=125682,ExperiencePointsForLevel[78]=138066,ExperiencePointsForLevel[79]=151473,ExperiencePointsForLevel[80]=165988,ExperiencePointsForLevel[81]=181703,ExperiencePointsForLevel[82]=198722,ExperiencePointsForLevel[83]=217157,ExperiencePointsForLevel[84]=237131,ExperiencePointsForLevel[85]=258775,ExperiencePointsForLevel[86]=282236,ExperiencePointsForLevel[87]=307675,ExperiencePointsForLevel[88]=335271,ExperiencePointsForLevel[89]=365218,ExperiencePointsForLevel[90]=397732,ExperiencePointsForLevel[91]=433046,ExperiencePointsForLevel[92]=471415,ExperiencePointsForLevel[93]=513115,ExperiencePointsForLevel[94]=558452,ExperiencePointsForLevel[95]=607759,ExperiencePointsForLevel[96]=661400,ExperiencePointsForLevel[97]=719771,ExperiencePointsForLevel[98]=783301,ExperiencePointsForLevel[99]=832456,ExperiencePointsForLevel[100]=897740,ExperiencePointsForLevel[101]=909700,ExperiencePointsForLevel[102]=989165,ExperiencePointsForLevel[103]=1036385,ExperiencePointsForLevel[104]=1100000)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SpyGlass_C",EngramHidden=true,RemoveEngramPreReq=false)
 OverrideNamedEngramEntries=(EngramClassName="EngramRepairStation_C",EngramHidden=false)
 OverrideNamedEngramEntries=(EngramClassName="EngramPickupGun_C",EngramHidden=false)
 OverrideNamedEngramEntries=(EngramClassName="EngramVariantGun_C",EngramHidden=false)
-OverrideNamedEngramEntries=(EngramClassName="EngramDinoGun_C",EngramHidden=false)
-OverrideNamedEngramEntries=(EngramClassName="EngramCraftingPotion_C",EngramHidden=false)
+OverrideNamedEngramEntries=(EngramClassName="EngramDinoGun_C",EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramCraftingPotion_C",EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SuperSpyglassPlus_Consumable_C",EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SSP_SpyglassSkin_C",EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SuperSpyglassPlus_C",EngramHidden=false,EngramPointsCost=2,EngramLevelRequirement=7,RemoveEngramPreReq=true)
@@ -144,4 +142,3 @@ OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Augment_MaxArmor_Up_C",
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Augment_MaxDamage_Up_C",EngramHidden=true,RemoveEngramPreReq=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Augment_MaxEfficiency_Up_C",EngramHidden=true,RemoveEngramPreReq=true)
 ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemWeapon_SuperSpyglassPlus_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemResource_Crystal_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),(ResourceItemTypeString="PrimalItemResource_Fiber_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false)))
-
